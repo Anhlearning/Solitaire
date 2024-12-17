@@ -12,8 +12,10 @@ public class UpdateVisual : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Selectable selectable;
     private Solitaire solitaire;
+    private UserInput userInput;
     private void Awake()
     {
+        userInput = FindObjectOfType<UserInput>();
         solitaire = FindObjectOfType<Solitaire>();
         spriteRenderer=GetComponent<SpriteRenderer>();
         selectable = GetComponent<Selectable>();
@@ -41,6 +43,17 @@ public class UpdateVisual : MonoBehaviour
         else
         {
             spriteRenderer.sprite=cardBack;
+        }
+        if (userInput.slot1)
+        {
+            if (userInput.slot1.name == name)
+            {
+                spriteRenderer.color = Color.yellow;
+            }
+            else
+            {
+                spriteRenderer.color = Color.white;
+            }
         }
     }
 }
