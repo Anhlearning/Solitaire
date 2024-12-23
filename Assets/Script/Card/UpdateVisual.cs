@@ -5,10 +5,15 @@ using UnityEngine;
 public class UpdateVisual : MonoBehaviour
 {
     [SerializeField]
-    private Sprite cardFace;
+    private Transform cardFace;
     [SerializeField]
-    private Sprite cardBack;
-
+    private SpriteRenderer number;
+    [SerializeField]
+    private SpriteRenderer suit;
+    [SerializeField]
+    private SpriteRenderer suitsmall;
+    [SerializeField]
+    private Transform cardBack;
     private SpriteRenderer spriteRenderer;
     private Selectable selectable;
     private Solitaire solitaire;
@@ -23,12 +28,22 @@ public class UpdateVisual : MonoBehaviour
     void Start()
     {
            
-        List<string>deck=Solitaire.Generate();
+        List<string>deck=Solitaire.GenerateDeck();
         for(int i = 0; i < deck.Count; i++)
         {
             if (deck[i] == gameObject.name)
             {
-                cardFace = solitaire.cardFaces[i];
+                number.sprite = solitaire.cardSpriteList[i].number;
+                suit.sprite = solitaire.cardSpriteList[i].suit;
+                suitsmall.sprite = solitaire.cardSpriteList[i].suit;
+                if (deck[i][0] == 'H' || deck[i][0] == 'D')
+                {
+                    number.color = new Color32(250, 108, 100, 255);
+                }
+                else
+                {
+                    number.color = new Color32(40, 58, 56, 255);
+                }
                 break;
             }
         }
@@ -38,11 +53,13 @@ public class UpdateVisual : MonoBehaviour
     {
         if (selectable.cardFace)
         {
-            spriteRenderer.sprite = cardFace;
+            cardFace.gameObject.SetActive(true);    
+            cardBack.gameObject.SetActive(false);
         }
         else
         {
-            spriteRenderer.sprite=cardBack;
+            cardFace.gameObject.SetActive(false);
+            cardBack.gameObject.SetActive(true);   
         }
         if (userInput.slot1)
         {
@@ -52,7 +69,7 @@ public class UpdateVisual : MonoBehaviour
             }
             else
             {
-                spriteRenderer.color = Color.white;
+                spriteRenderer.color = new Color32(41,58,58,255);
             }
         }
     }
