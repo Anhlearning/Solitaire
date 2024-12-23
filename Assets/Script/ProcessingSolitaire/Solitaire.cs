@@ -10,7 +10,10 @@ public class valueCard
     public Sprite number;
     public Sprite suit;
 }
+public enum Option
+{
 
+}
 public class Solitaire : MonoBehaviour
 {   
     [Header("Sprite")]
