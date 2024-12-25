@@ -16,7 +16,7 @@ public class UndoManager : MonoBehaviour
     {
         if(historyStack.Count > 0)
         {
-            historyStack.Pop().UndoCommnand();
+            historyStack.Pop().UndoCommand();
         }
     }
 

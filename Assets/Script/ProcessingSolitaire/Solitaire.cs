@@ -12,7 +12,9 @@ public class valueCard
 }
 public enum Option
 {
-
+    easy=1,
+    normal=2,
+    hard=3
 }
 public class Solitaire : MonoBehaviour
 {   
@@ -27,7 +29,6 @@ public class Solitaire : MonoBehaviour
     public GameObject[] bottomPos;
     public GameObject[] topPos;
     public Dictionary<string, GameObject> mapDeck=new Dictionary<string, GameObject>();
-    public List< GameObject> disCardPileObject=new List<GameObject>();
     public Transform deckPlaceHolder;
     public Transform deckRestart;
     public int CountCardFace;
@@ -43,15 +44,18 @@ public class Solitaire : MonoBehaviour
     private List<string> bottom4 = new List<string>();
     private List<string> bottom5 = new List<string>();
     private List<string> bottom6 = new List<string>();
-
+    private UndoManager undoManager;
 
     public List<string> deck;
     public List<string> discardPile = new List<string>();
-    private int deckLocation;
-    private int trips;
-    private int tripsRemainder;
-
-
+    public int deckLocation;
+    public int trips;
+    public int tripsRemainder;
+    public float zOffset=-0.2f;
+    private void Awake()
+    {
+        undoManager = GetComponent<UndoManager>();
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -213,70 +217,10 @@ public class Solitaire : MonoBehaviour
 
     public void DealFromDeck()
     {
-
-        // add remaining cards to discard pile
-
-        foreach (Transform child in deckButton.transform)
-        {
-            if (child.CompareTag("Card"))
-            {
-                child.position = pivotDeck.transform.position;
-                if (!discardPile.Contains(child.name))
-                { 
-                    disCardPileObject.Add(child.gameObject);
-                    deck.Remove(child.name);
-                    discardPile.Add(child.name);
-                }
-            }
-        }
-
-
-        if (deckLocation < trips)
-        {
-            deckPlaceHolder.gameObject.SetActive(true);
-            // draw 3 new cards
-            float xOffset = 0.7f;
-            float zOffset = -0.2f;
-
-            foreach (string card in deckTrips[deckLocation])
-            {
-                Debug.LogWarning(card);
-                GameObject newTopCard = mapDeck[card];
-                newTopCard.SetActive(true);
-                newTopCard.transform.position=new Vector3( deckButton.transform.position.x - xOffset, deckButton.transform.position.y , deckButton.transform.position.z+zOffset);
-                newTopCard.transform.parent = deckButton.transform;
-                xOffset = xOffset + 0.3f;
-                zOffset = zOffset - 0.2f;
-                tripsOnDisplay.Add(card);
-                newTopCard.GetComponent<Selectable>().cardFace = true;
-                newTopCard.GetComponent<Selectable>().inDeckPile = true;
-            }
-            deckLocation++;
-        }
-        else
-        {
-            deckPlaceHolder.gameObject.SetActive(false);
-            Debug.LogError("ToDo DestroyCard in deckButton and reset ");
-            List<Transform> tmp= new List<Transform>();  
-            foreach (Transform child in deckButton.transform)
-            {
-                if (child.CompareTag("Card"))
-                {
-                    child.position = new Vector3(deckButton.transform.position.x , deckButton.transform.position.y, deckButton.transform.position.z );
-                    tmp.Add(child); 
-                    child.gameObject.SetActive(false);
-                }
-            }
-            foreach (Transform child in tmp)
-            {
-                child.parent = pivotDeck.transform;
-            }   
-            //Restack the top deck
-            RestackTopDeck();
-        }
+        undoManager.ExecuteCommand(new DealCommand(this));
     }
 
-    void RestackTopDeck()
+    public void RestackTopDeck()
     {
         tripsOnDisplay.Clear();
         deck.Clear();

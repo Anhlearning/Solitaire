@@ -100,7 +100,7 @@ public class UserInput : MonoBehaviour
             if (!Blocked(selected)) // if the card clicked on is not blocked
             {
                 // flip it over
-                selected.GetComponent<Selectable>().cardFace = true;
+                undoManager.ExecuteCommand(new ClickCardCommand(selected.GetComponent<Selectable>()));
                 solitaire.CountCardFace++;
                 Debug.LogWarning(solitaire.CountCardFace);
                 slot1 = this.gameObject;    
@@ -256,9 +256,6 @@ public class UserInput : MonoBehaviour
 
     void Stack(GameObject selected)
     {
-        // if on top of king or empty bottom stack the cards in place
-        // else stack the cards with a negative y offset
-
         Selectable s1 = slot1.GetComponent<Selectable>();
         Selectable s2 = selected.GetComponent<Selectable>();
         float yOffset = 0.3f;
@@ -273,36 +270,7 @@ public class UserInput : MonoBehaviour
         Transform oldParent = GameObject.Find(nameParent).transform;
         undoManager.ExecuteCommand(new MoveCardCommand(oldPos, newPos, s1, s2, oldParent,solitaire));
 
-        //if (s1.inDeckPile) // removes the cards from the top pile to prevent duplicate cards
-        //{
-        //    solitaire.tripsOnDisplay.Remove(slot1.name);
-        //}
-        //else if (s1.isTop && s2.isTop && s1.value == 1) // allows movement of cards between top spots
-        //{
-        //    solitaire.topPos[s1.row].GetComponent<Selectable>().value = 0;
-        //    solitaire.topPos[s1.row].GetComponent<Selectable>().suit = null;
-        //}
-        //else if (s1.isTop) // keeps track of the current value of the top decks as a card has been removed
-        //{
-        //    solitaire.topPos[s1.row].GetComponent<Selectable>().value = s1.value - 1;
-        //}
-        //else // removes the card string from the appropriate bottom list
-        //{
-        //    solitaire.bottoms[s1.row].Remove(slot1.name);
-        //}
-        //s1.inDeckPile = false; // you cannot add cards to the trips pile so this is always fine
-        //s1.row = s2.row;
-        //if (s2.isTop) // moves a card to the top and assigns the top's value and suit
-        //{
-        //    solitaire.topPos[s1.row].GetComponent<Selectable>().value = s1.value;
-        //    solitaire.topPos[s1.row].GetComponent<Selectable>().suit = s1.suit;
-        //    s1.isTop = true;
-        //}
-        //else
-        //{
-        //    s1.isTop = false;
-        //}
-        // after completing move reset slot1 to be essentially null as being null will break the logic
+  
         slot1 = this.gameObject;
 
     }

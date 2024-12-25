@@ -6,5 +6,5 @@ using UnityEngine;
 public interface IAction 
 {
     void ExecuteCommand();
-    void UndoCommnand();
+    void UndoCommand();
 }
