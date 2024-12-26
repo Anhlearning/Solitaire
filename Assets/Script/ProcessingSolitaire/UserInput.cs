@@ -298,6 +298,7 @@ public class UserInput : MonoBehaviour
             }
             else
             {
+                print(s2.name + " is blocked by " + solitaire.bottoms[s2.row].Last());
                 return true;
             }
         }

@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static Unity.Burst.Intrinsics.X86.Avx;
 
 public class UpdateVisual : MonoBehaviour
 {
     [SerializeField]
     private Transform cardFace;
     [SerializeField]
-    private SpriteRenderer number;
+    private List<SpriteRenderer> numbers;
     [SerializeField]
     private SpriteRenderer suit;
     [SerializeField]
@@ -33,17 +34,21 @@ public class UpdateVisual : MonoBehaviour
         {
             if (deck[i] == gameObject.name)
             {
-                number.sprite = solitaire.cardSpriteList[i].number;
+                foreach(SpriteRenderer number in numbers) 
+                {
+                    number.sprite = solitaire.cardSpriteList[i].number;
+                    if (deck[i][0] == 'H' || deck[i][0] == 'D')
+                    {
+                        number.color = new Color32(250, 108, 100, 255);
+                    }
+                    else
+                    {
+                        number.color = new Color32(40, 58, 56, 255);
+                    }
+                 
+                }
                 suit.sprite = solitaire.cardSpriteList[i].suit;
                 suitsmall.sprite = solitaire.cardSpriteList[i].suit;
-                if (deck[i][0] == 'H' || deck[i][0] == 'D')
-                {
-                    number.color = new Color32(250, 108, 100, 255);
-                }
-                else
-                {
-                    number.color = new Color32(40, 58, 56, 255);
-                }
                 break;
             }
         }

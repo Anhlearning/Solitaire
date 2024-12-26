@@ -107,6 +107,7 @@ public class MoveCardCommand : IAction
         else // removes the card string from the appropriate bottom list
         {
             Debug.Log(indexOfS1);
+            solitaire.bottoms[s1.row].Remove(s1.name);
             s1.row = oldParent.GetComponent<Selectable>().row;
             solitaire.bottoms[s1.row].Add(s1.name);
         }

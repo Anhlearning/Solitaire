@@ -31,12 +31,13 @@ public class Solitaire : MonoBehaviour
     public Dictionary<string, GameObject> mapDeck=new Dictionary<string, GameObject>();
     public Transform deckPlaceHolder;
     public Transform deckRestart;
+    [Header("Option")]
     public int CountCardFace;
+    public Option option;
     public List<string>[] bottoms;
     public List<string>[] tops;
     public List<string> tripsOnDisplay = new List<string>();
     public List<List<string>> deckTrips = new List<List<string>>();
-    
     private List<string> bottom0 = new List<string>();
     private List<string> bottom1 = new List<string>();
     private List<string> bottom2 = new List<string>();
@@ -81,7 +82,7 @@ public class Solitaire : MonoBehaviour
         }
         SolitaireSort();
         StartCoroutine(SolitaireDeal());
-        SortDeckIntoTrips();
+        SortDeckIntoTrips(option);
 
     }
 
@@ -182,22 +183,23 @@ public class Solitaire : MonoBehaviour
 
     }
 
-    public void SortDeckIntoTrips()
+    public void SortDeckIntoTrips(Option option)
     {
-        trips = deck.Count / 3;
-        tripsRemainder = deck.Count % 3;
+        int tmp = (int)option;
+        trips = deck.Count / tmp;
+        tripsRemainder = deck.Count % tmp;
         deckTrips.Clear();
 
         int modifier = 0;
         for (int i = 0; i < trips; i++)
         {
             List<string> myTrips = new List<string>();
-            for (int j = 0; j < 3; j++)
+            for (int j = 0; j < tmp; j++)
             {
                 myTrips.Add(deck[j + modifier]);
             }
             deckTrips.Add(myTrips);
-            modifier = modifier + 3;
+            modifier = modifier + tmp;
         }
         if (tripsRemainder != 0)
         {
@@ -231,6 +233,6 @@ public class Solitaire : MonoBehaviour
         }
         discardPile.Clear();
         Shuffle(deck);
-        SortDeckIntoTrips();
+        SortDeckIntoTrips(option);
     }
 }

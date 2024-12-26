@@ -1464,7 +1464,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -100}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1653,13 +1653,17 @@ MonoBehaviour:
   - {fileID: 453079833}
   - {fileID: 1649824427}
   - {fileID: 1407086337}
-  disCardPileObject: []
   deckPlaceHolder: {fileID: 609875041}
   deckRestart: {fileID: 252686755}
   CountCardFace: 0
+  option: 1
   tripsOnDisplay: []
   deck: []
   discardPile: []
+  deckLocation: 0
+  trips: 0
+  tripsRemainder: 0
+  zOffset: -0.2
 --- !u!114 &585807972
 MonoBehaviour:
   m_ObjectHideFlags: 0
