@@ -40,16 +40,30 @@ public class DealCommand : IAction
             {
                 Transform child = solitaire.deckButton.transform.GetChild(i);
                 if(child.CompareTag("Card")){
-                float minPos = Mathf.Min(-0.7f, solitaire.deckButton.transform.GetChild(i).transform.localPosition.x + offsetMove * 0.3f);
-                Debug.Log(child.transform.name+" "+minPos);
-                child.transform.position = new Vector3(solitaire.deckButton.transform.position.x+minPos, child.position.y, child.position.z);
+                    if(offsetMove <= solitaire.deck.Count){
+                        float minPos = Mathf.Min(-0.7f, solitaire.deckButton.transform.GetChild(i).transform.localPosition.x + offsetMove * 0.3f);
+                        Debug.Log(child.transform.name+" "+minPos);
+                        child.transform.position = new Vector3(solitaire.deckButton.transform.position.x+minPos, child.position.y, child.position.z);
+                    }
+                    else {
+                        float minPos = Mathf.Min(-0.7f, solitaire.deckButton.transform.GetChild(i).transform.localPosition.x + solitaire.deck.Count * 0.3f);
+                        Debug.Log(child.transform.name+" "+minPos);
+                        child.transform.position = new Vector3(solitaire.deckButton.transform.position.x+minPos, child.position.y, child.position.z);
+                    }
                 }
             }
         }
         Debug.LogWarning(solitaire.deckButton.transform.GetChild(solitaire.deckButton.transform.childCount - 1).localPosition.x);
-        float lastChildPos = solitaire.deckButton.transform.GetChild(solitaire.deckButton.transform.childCount - 1).localPosition.x-0.3*offsetMove >= -1.35f ? solitaire.deckButton.transform.GetChild(solitaire.deckButton.transform.childCount - 1).localPosition.x:-0.4f ;
+        float lastChildPos=0;
+        if(offsetMove <= solitaire.deck.Count){
+           lastChildPos = solitaire.deckButton.transform.GetChild(solitaire.deckButton.transform.childCount - 1).localPosition.x-0.3*offsetMove >= -1.35f ? solitaire.deckButton.transform.GetChild(solitaire.deckButton.transform.childCount - 1).localPosition.x:-0.4f ;
+        }
+        else {
+            lastChildPos = solitaire.deckButton.transform.GetChild(solitaire.deckButton.transform.childCount - 1).localPosition.x-0.3* solitaire.deck.Count >= -1.35f ? solitaire.deckButton.transform.GetChild(solitaire.deckButton.transform.childCount - 1).localPosition.x:-0.4f ;
+        }
+        lastChildPos -= 0.3f;
         Debug.Log(solitaire.deckButton.transform.GetChild(solitaire.deckButton.transform.childCount - 1).localPosition.x-0.3*offsetMove);
-        lastChildPos-=0.3f;
+       
         foreach (Transform child in solitaire.deckButton.transform)
         {
             if (child.CompareTag("Card"))
