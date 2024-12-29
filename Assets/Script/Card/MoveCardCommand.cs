@@ -44,7 +44,7 @@ public class MoveCardCommand : IAction
         if (s1.inDeckPile) // removes the cards from the top pile to prevent duplicate cards
         {
             solitaire.tripsOnDisplay.Remove(s1.gameObject.name);
-            if(solitaire.tripsOnDisplay.Count > 3)
+            if(solitaire.tripsOnDisplay.Count >= 3)
             {
                 for (int i = solitaire.tripsOnDisplay.Count - 1; i >= solitaire.tripsOnDisplay.Count - 2; i--)
                 {
@@ -85,7 +85,7 @@ public class MoveCardCommand : IAction
         if (this.inDeckPile) 
         {
             Debug.Log(indexOfS1);
-            if (solitaire.tripsOnDisplay.Count > 3)
+            if (solitaire.tripsOnDisplay.Count >= 3)
             {
                 for (int i = solitaire.tripsOnDisplay.Count - 1; i >= solitaire.tripsOnDisplay.Count - 2; i--)
                 {

@@ -10,14 +10,22 @@ public class DealCommand : IAction
     List<string> listCardAddCurrent=new List<string>();
     List<string> listCardAddPrevious=new List<string>(); 
     List<Transform> transAdd=new List<Transform>(); 
+    List<List<string>> currentDeckTrips=new List<List<string>>();
     int deckcurrent;
+    int tripsCurrent;
     List<string> disCardPilePreviousClear=new List<string>();
     List<string> deckPreviousClear=new List<string>();
     List<string> onDisplayPreviousClear=new List<string>(); 
+    Dictionary<string,float> offsetZOfList=new Dictionary<string, float>();
+    int offsetMove;
     public DealCommand(Solitaire solitaire)
     {
         this.solitaire = solitaire;
         deckcurrent = solitaire.deckLocation;
+
+        currentDeckTrips.AddRange(solitaire.deckTrips);
+        offsetMove =(int) solitaire.option;
+        tripsCurrent=solitaire.trips;
     }
     
     public void ExecuteCommand()
@@ -25,19 +33,23 @@ public class DealCommand : IAction
         disCardPilePreviousClear.AddRange(solitaire.discardPile);
         deckPreviousClear.AddRange(solitaire.deck);
         onDisplayPreviousClear.AddRange(solitaire.tripsOnDisplay);
-        int offsetMove =(int) solitaire.option;
+        
         if (offsetMove + solitaire.deckButton.transform.childCount > 5)
         {
-            for(int i=0;i<offsetMove; i++) 
+            for(int i=solitaire.deckButton.transform.childCount-2;i<=solitaire.deckButton.transform.childCount-1; i++) 
             {
-                Transform child = solitaire.deckButton.transform.GetChild(solitaire.deckButton.transform.childCount - 1 - i);
-                float minPos = Mathf.Min(-0.7f, solitaire.deckButton.transform.GetChild(solitaire.deckButton.transform.childCount - 1-i).transform.position.x + offsetMove * 0.3f);
-                child.transform.position = new Vector3(minPos, child.position.y, child.position.z);
+                Transform child = solitaire.deckButton.transform.GetChild(i);
+                if(child.CompareTag("Card")){
+                float minPos = Mathf.Min(-0.7f, solitaire.deckButton.transform.GetChild(i).transform.localPosition.x + offsetMove * 0.3f);
+                Debug.Log(child.transform.name+" "+minPos);
+                child.transform.position = new Vector3(solitaire.deckButton.transform.position.x+minPos, child.position.y, child.position.z);
+                }
             }
-            
         }
-        float lastChildPos =  (solitaire.deckButton.transform.childCount > 2) ? solitaire.deckButton.transform.GetChild(solitaire.deckButton.transform.childCount - 1).position.x : 0.7f;
-        Debug.Log(lastChildPos);
+        Debug.LogWarning(solitaire.deckButton.transform.GetChild(solitaire.deckButton.transform.childCount - 1).localPosition.x);
+        float lastChildPos = solitaire.deckButton.transform.GetChild(solitaire.deckButton.transform.childCount - 1).localPosition.x-0.3*offsetMove >= -1.35f ? solitaire.deckButton.transform.GetChild(solitaire.deckButton.transform.childCount - 1).localPosition.x:-0.4f ;
+        Debug.Log(solitaire.deckButton.transform.GetChild(solitaire.deckButton.transform.childCount - 1).localPosition.x-0.3*offsetMove);
+        lastChildPos-=0.3f;
         foreach (Transform child in solitaire.deckButton.transform)
         {
             if (child.CompareTag("Card"))
@@ -49,20 +61,17 @@ public class DealCommand : IAction
                 }
             }
         }
-        if (solitaire.deckLocation < solitaire.trips)
+        if (deckcurrent < tripsCurrent)
         {
             solitaire.deckPlaceHolder.gameObject.SetActive(true);
-            float xOffset = 0.3f;
-            foreach (string card in solitaire.deckTrips[solitaire.deckLocation])
+            foreach (string card in solitaire.deckTrips[deckcurrent])
             {
                 listCardAddCurrent.Add(card);
                 GameObject newTopCard = solitaire.mapDeck[card];
                 newTopCard.SetActive(true);
-                newTopCard.transform.position = new Vector3(solitaire.deckButton.transform.position.x-lastChildPos, solitaire.deckButton.transform.position.y, solitaire.deckButton.transform.position.z + solitaire.zOffset);
+                newTopCard.transform.position = new Vector3(solitaire.deckButton.transform.position.x+lastChildPos, solitaire.deckButton.transform.position.y,newTopCard.transform.position.z);
                 newTopCard.transform.parent = solitaire.deckButton.transform;
-                lastChildPos = lastChildPos + xOffset;
-                //xOffset = xOffset + 0.3f;
-                solitaire.zOffset +=- 0.2f;
+                lastChildPos = lastChildPos - 0.3f;
                 solitaire.tripsOnDisplay.Add(card);
                 solitaire.deck.Remove(card);
                 newTopCard.GetComponent<Selectable>().cardFace = true;
@@ -78,14 +87,15 @@ public class DealCommand : IAction
         {
             Debug.LogWarning(disCardPilePreviousClear.Count + " " + deckPreviousClear.Count + " " + onDisplayPreviousClear.Count);
             solitaire.deckPlaceHolder.gameObject.SetActive(true);
-            solitaire.zOffset =-0.2f;
-            deckcurrent = solitaire.deckLocation;
             List<Transform> tmp = new List<Transform>();
+            foreach(string stringDic in solitaire.mapDeck.Keys){
+                offsetZOfList[stringDic]=solitaire.mapDeck[stringDic].transform.position.z;
+            }
             foreach (Transform child in solitaire.deckButton.transform)
             {
                 if (child.CompareTag("Card"))
                 {
-                    child.position = new Vector3(solitaire.deckButton.transform.position.x, solitaire. deckButton.transform.position.y, solitaire.deckButton.transform.position.z);
+                    child.position = new Vector3(solitaire.deckButton.transform.position.x, solitaire. deckButton.transform.position.y,child.position.z);
                     tmp.Add(child);
                     child.gameObject.SetActive(false);
                 }
@@ -101,19 +111,18 @@ public class DealCommand : IAction
     public void UndoCommand()
     {
        
-        if (deckcurrent < solitaire.trips)
+        if (deckcurrent < tripsCurrent)
         {
+            solitaire.deckPlaceHolder.gameObject.SetActive(true);
+            solitaire.deckLocation = deckcurrent;
             if(deckcurrent == solitaire.deckLocation - 1)
             {
                 solitaire.deckPlaceHolder.gameObject.SetActive(true);
             }
-            solitaire.deckLocation = deckcurrent;
-            //float xOffset = 0.7f;
             foreach (Transform child in solitaire.deckButton.transform)
             {
                 if (child.CompareTag("Card") && listCardAddCurrent.Contains(child.name))
                 {
-                    child.position = solitaire.pivotDeck.transform.position;
                     solitaire.deck.Add(child.name);
                     child.gameObject.SetActive(false);
                     solitaire.tripsOnDisplay.Remove(child.name);
@@ -122,27 +131,20 @@ public class DealCommand : IAction
             }
             foreach(Transform child in transAdd)
             {
+                child.position = new Vector3(solitaire.pivotDeck.transform.position.x-0.3f, child.position.y, child.position.z);
                 child.transform.parent = solitaire.pivotDeck.transform;
             }
-            for (int i= 0; i < solitaire.deckButton.transform.childCount;i++)
+            int count=solitaire.deckButton.transform.childCount;
+            float lastChildPos = -0.7f;
+            for (int i= count-3; i < count && count >=3;i++)
             {
                 Transform child = solitaire.deckButton.transform.GetChild(i); 
-                if(listCardAddPrevious.Contains(child.name))
-                {
-                    int ii=listCardAddPrevious.IndexOf(child.name);
-                    child.gameObject.SetActive(true);
-                    if (i < 3)
-                    {
-                        child.transform.position = new Vector3(solitaire.deckButton.transform.position.x - 0.7f, child.transform.position.y, child.transform.position.z);
-
-                    }
-                    else if(i>=3 && ii > 0)
-                    {
-                        child.transform.position = new Vector3(solitaire.deckButton.transform.GetChild(i - 1).position.x - 0.3f, child.transform.position.y, child.transform.position.z);
-                    }
-                    //xOffset = xOffset + 0.3f;
-                    solitaire.discardPile.Remove(child.name);  
-                }
+                if(child.gameObject.CompareTag("Card")){
+                    Debug.Log(child.name);
+                    child.transform.position = new Vector3(solitaire.deckButton.transform.position.x+lastChildPos, solitaire.deckButton.transform.position.y, child.transform.position.z);
+                    lastChildPos -= 0.3f;
+                    solitaire.discardPile.Remove(child.name);
+                }   
             }
         }
         else
@@ -152,13 +154,18 @@ public class DealCommand : IAction
             solitaire.tripsOnDisplay.Clear();
             solitaire.deck.Clear();
             solitaire.discardPile.Clear();
+            solitaire.deckTrips.Clear();
             solitaire.tripsOnDisplay.AddRange(onDisplayPreviousClear);
             solitaire.deck.AddRange(deckPreviousClear);
             solitaire.discardPile.AddRange(disCardPilePreviousClear);  
-            solitaire.zOffset = -0.2f;
+            solitaire.deckTrips.AddRange(currentDeckTrips);
             solitaire.deckLocation = deckcurrent;
+            solitaire.trips=tripsCurrent;
             int count = 0;
             int countLoop = onDisplayPreviousClear.Count / 3;
+            foreach(string tmpString in onDisplayPreviousClear){
+                solitaire.mapDeck[tmpString].transform.position= new Vector3( solitaire.mapDeck[tmpString].transform.position.x, solitaire.mapDeck[tmpString].transform.position.y, offsetZOfList[tmpString]);
+            }
             Debug.Log(countLoop);
             while (count < countLoop)
             {
@@ -166,7 +173,8 @@ public class DealCommand : IAction
                 {
                     if (child.CompareTag("Card"))
                     {
-                        child.position = new Vector3(solitaire.pivotDeck.transform.position.x, child.position.y, child.position.z);
+                        child.position = new Vector3(solitaire.pivotDeck.transform.position.x-0.3f, child.position.y, child.position.z);
+                        Debug.Log("NEW POS OF"+" "+child.name+" "+child.position);
                     }
                 }
                 float xOffset = 0.7f;
@@ -175,10 +183,10 @@ public class DealCommand : IAction
                     Debug.LogError(solitaire.mapDeck[onDisplayPreviousClear[j]].name);
                     GameObject newTopCard = solitaire.mapDeck[onDisplayPreviousClear[j]];
                     newTopCard.SetActive(true);
-                    newTopCard.transform.position = new Vector3(solitaire.deckButton.transform.position.x - xOffset, solitaire.deckButton.transform.position.y, solitaire.deckButton.transform.position.z + solitaire.zOffset);
+                    newTopCard.transform.position = new Vector3(solitaire.deckButton.transform.position.x - xOffset, solitaire.deckButton.transform.position.y, newTopCard.transform.position.z);
                     newTopCard.transform.parent = solitaire.deckButton.transform;
+                    Debug.Log("NEW POS OF s2 "+" "+newTopCard.name+" "+newTopCard.transform.position);
                     xOffset = xOffset + 0.3f;
-                    solitaire.zOffset += -0.2f;
                 }
                 count += 1;
             }
@@ -194,10 +202,9 @@ public class DealCommand : IAction
                         {
                             GameObject newTopCard = solitaire.mapDeck[onDisplayPreviousClear[j]];
                             newTopCard.SetActive(true);
-                            newTopCard.transform.position = new Vector3(solitaire.deckButton.transform.position.x - xOffset, solitaire.deckButton.transform.position.y, solitaire.deckButton.transform.position.z + solitaire.zOffset);
+                            newTopCard.transform.position = new Vector3(solitaire.deckButton.transform.position.x - xOffset, solitaire.deckButton.transform.position.y, newTopCard.transform.position.z);
                             newTopCard.transform.parent = solitaire.deckButton.transform;
                             xOffset = xOffset + 0.3f;
-                            solitaire.zOffset += -0.2f;
                         }
                     }
                     else if (lech == 2)
@@ -206,7 +213,7 @@ public class DealCommand : IAction
                         {
                             if (child.CompareTag("Card"))
                             {
-                                child.position = new Vector3(solitaire.pivotDeck.transform.position.x, child.position.y, child.position.z);
+                                child.position = new Vector3(solitaire.pivotDeck.transform.position.x-0.3f, child.position.y, child.position.z);
                             }
                         }
                         float xOffset = 1.0f;
@@ -214,10 +221,9 @@ public class DealCommand : IAction
                         {
                             GameObject newTopCard = solitaire.mapDeck[onDisplayPreviousClear[j]];
                             newTopCard.SetActive(true);
-                            newTopCard.transform.position = new Vector3(solitaire.deckButton.transform.position.x - xOffset, solitaire.deckButton.transform.position.y, solitaire.deckButton.transform.position.z + solitaire.zOffset);
+                            newTopCard.transform.position = new Vector3(solitaire.deckButton.transform.position.x - xOffset, solitaire.deckButton.transform.position.y,newTopCard.transform.position.z);
                             newTopCard.transform.parent = solitaire.deckButton.transform;
                             xOffset = xOffset + 0.3f;
-                            solitaire.zOffset += -0.2f;
                         }
                     }
                 }

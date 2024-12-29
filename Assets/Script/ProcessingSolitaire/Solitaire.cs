@@ -160,12 +160,15 @@ public class Solitaire : MonoBehaviour
     }
     private void AddToMap()
     {
-        foreach (string card in deck)
-        {
-            GameObject newCard = Instantiate(cardPrefab, new Vector3(deckButton.transform.position.x, deckButton.transform.position.y, deckButton.transform.position.z), Quaternion.identity, pivotDeck.transform);
-            newCard.name = card;
-            mapDeck.Add(card, newCard);
-            newCard.gameObject.SetActive(false);
+        zOffset = -0.2f;
+        foreach(List<string> tmpStringList in deckTrips){
+            foreach(string card in tmpStringList){
+                GameObject newCard = Instantiate(cardPrefab, new Vector3(deckButton.transform.position.x, deckButton.transform.position.y, deckButton.transform.position.z+zOffset), Quaternion.identity, pivotDeck.transform);
+                newCard.name = card;
+                mapDeck.Add(card, newCard);
+                newCard.gameObject.SetActive(false);
+                zOffset+=-0.2f;
+            }
         }
         discardPile.Clear();
     }
@@ -214,9 +217,7 @@ public class Solitaire : MonoBehaviour
             trips++;
         }
         deckLocation = 0;
-
     }
-
     public void DealFromDeck()
     {
         undoManager.ExecuteCommand(new DealCommand(this));
@@ -224,15 +225,23 @@ public class Solitaire : MonoBehaviour
 
     public void RestackTopDeck()
     {
-        tripsOnDisplay.Clear();
+        
+        discardPile.Clear();
         deck.Clear();
-        foreach (string card in discardPile)
+        foreach (string card in tripsOnDisplay)
         {
             Debug.LogWarning(card);
             deck.Add(card);
         }
-        discardPile.Clear();
+        tripsOnDisplay.Clear();
         Shuffle(deck);
         SortDeckIntoTrips(option);
+        float offset=-0.2f;
+        foreach(List<string> tmpStringList in deckTrips){
+            foreach(string tmpString in tmpStringList){
+                mapDeck[tmpString].transform.position= new Vector3( mapDeck[tmpString].transform.position.x, mapDeck[tmpString].transform.position.y, 0 + offset);
+                offset+= -0.2f;
+            }
+        }
     }
 }
