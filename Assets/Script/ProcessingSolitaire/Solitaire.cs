@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -8,7 +9,8 @@ using UnityEngine;
 public class valueCard
 {
     public Sprite number;
-    public Sprite suit;
+    public Sprite suitsmall;
+    public Sprite suitCenter;
 }
 public enum Option
 {
@@ -31,8 +33,15 @@ public class Solitaire : MonoBehaviour
     public Dictionary<string, GameObject> mapDeck=new Dictionary<string, GameObject>();
     public Transform deckPlaceHolder;
     public Transform deckRestart;
+    [Header("Parameter Caculate")]
+    public int CountCardFace=0;
+    public float countDownClickDeal;
+    public int deckLocation;
+    public int trips;
+    public int tripsRemainder;
+    public float zOffset = -0.2f;
+    public float distanceCard;
     [Header("Option")]
-    public int CountCardFace;
     public Option option;
     public List<string>[] bottoms;
     public List<string>[] tops;
@@ -46,13 +55,10 @@ public class Solitaire : MonoBehaviour
     private List<string> bottom5 = new List<string>();
     private List<string> bottom6 = new List<string>();
     private UndoManager undoManager;
-
+    private bool isClickedDeal = false;
     public List<string> deck;
     public List<string> discardPile = new List<string>();
-    public int deckLocation;
-    public int trips;
-    public int tripsRemainder;
-    public float zOffset=-0.2f;
+   
     private void Awake()
     {
         undoManager = GetComponent<UndoManager>();
@@ -138,10 +144,9 @@ public class Solitaire : MonoBehaviour
                 if (card == bottoms[i][bottoms[i].Count - 1])
                 {
                     newCard.GetComponent<Selectable>().cardFace = true;
-                    CountCardFace++;
-                    Debug.LogWarning(CountCardFace);
+
                 }
-                yOffset = yOffset + 0.3f;
+                yOffset = yOffset + 0.15f;
                 zOffset = zOffset + 0.03f;
                 discardPile.Add(card);
             }
@@ -220,7 +225,15 @@ public class Solitaire : MonoBehaviour
     }
     public void DealFromDeck()
     {
-        undoManager.ExecuteCommand(new DealCommand(this));
+        if (!isClickedDeal && (tripsOnDisplay.Count > 0|| deck.Count >0))
+        {
+            isClickedDeal = true;
+            undoManager.ExecuteCommand(new DealCommand(this));
+            DOVirtual.DelayedCall(countDownClickDeal, () =>
+            {
+                isClickedDeal = false;
+            });
+        }
     }
 
     public void RestackTopDeck()
@@ -236,11 +249,21 @@ public class Solitaire : MonoBehaviour
         tripsOnDisplay.Clear();
         Shuffle(deck);
         SortDeckIntoTrips(option);
-        float offset=-0.2f;
-        foreach(List<string> tmpStringList in deckTrips){
-            foreach(string tmpString in tmpStringList){
-                mapDeck[tmpString].transform.position= new Vector3( mapDeck[tmpString].transform.position.x, mapDeck[tmpString].transform.position.y, 0 + offset);
-                offset+= -0.2f;
+        DOVirtual.DelayedCall(0.25f, () =>
+        {
+            ResetPosZFromDeck();
+        });
+    }
+    private void ResetPosZFromDeck()
+    {
+        float offset = -0.2f;
+        foreach (List<string> tmpStringList in deckTrips)
+        {
+            foreach (string tmpString in tmpStringList)
+            {
+                mapDeck[tmpString].transform.position = new Vector3(deckButton.transform.position.x, deckButton.transform.position.y, 0 + offset);
+                Debug.LogError("This is : " + tmpString + " Position is: " + mapDeck[tmpString].transform.position);
+                offset -= 0.2f;
             }
         }
     }

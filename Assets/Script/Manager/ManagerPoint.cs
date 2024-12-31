@@ -6,17 +6,17 @@ public class ManagerPoint : MonoBehaviour
 {
     public Selectable[] topStacks;
 
-    // Start is called before the first frame update
-    void Start()
+    public static ManagerPoint Instance;
+    private void Awake()
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (HasWon())
+        if( Instance == null)
         {
+            Instance = this;   
+        }
+    }
+    private void Update()
+    {
+        if(HasWon()) {
             Win();
         }
     }
@@ -37,12 +37,9 @@ public class ManagerPoint : MonoBehaviour
         {
             return false;
         }
-
     }
-
-    void Win()
+    public void Win()
     {
-        Debug.LogError("You have won!");
+        Debug.Log("WWINNN");
     }
-
 }

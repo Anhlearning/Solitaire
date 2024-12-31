@@ -1,11 +1,14 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class UndoManager : MonoBehaviour
 {
-    public Stack<IAction> historyStack= new Stack<IAction>();  
-    
+    public Stack<IAction> historyStack= new Stack<IAction>();
+    private bool isCommanded = false;
+    public float countDownTimeUndo;
+   
     public void ExecuteCommand(IAction action)
     {
         action.ExecuteCommand();
@@ -14,9 +17,17 @@ public class UndoManager : MonoBehaviour
 
     public void UndoCommand()
     {
-        if(historyStack.Count > 0)
+        if (!isCommanded)
         {
-            historyStack.Pop().UndoCommand();
+            isCommanded = true;
+            if (historyStack.Count > 0)
+            {
+                historyStack.Pop().UndoCommand();
+            }
+            DOVirtual.DelayedCall(countDownTimeUndo, () =>
+            {
+                isCommanded = false;
+            });
         }
     }
 

@@ -39,16 +39,19 @@ public class UpdateVisual : MonoBehaviour
                     number.sprite = solitaire.cardSpriteList[i].number;
                     if (deck[i][0] == 'H' || deck[i][0] == 'D')
                     {
-                        number.color = new Color32(250, 108, 100, 255);
+                        number.color = new Color32(255, 93, 82, 255);
                     }
                     else
                     {
-                        number.color = new Color32(40, 58, 56, 255);
+                        number.color = new Color32(41, 56, 57, 255);
                     }
-                 
+                    if (deck[i][1]=='J' || deck[i][1]=='Q'|| deck[i][1] == 'K')
+                    {
+                        suit.color=number.color;    
+                    }
                 }
-                suit.sprite = solitaire.cardSpriteList[i].suit;
-                suitsmall.sprite = solitaire.cardSpriteList[i].suit;
+                suit.sprite = solitaire.cardSpriteList[i].suitCenter;
+                suitsmall.sprite = solitaire.cardSpriteList[i].suitsmall;
                 break;
             }
         }
