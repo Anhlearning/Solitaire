@@ -6,7 +6,7 @@ public class ManagerPoint : MonoBehaviour
 {
     public Selectable[] topStacks;
 
-    public static ManagerPoint Instance;
+    public static ManagerPoint Instance {private set;get;}
     private void Awake()
     {
         if( Instance == null)

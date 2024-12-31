@@ -62,17 +62,15 @@ public class UserInput : MonoBehaviour
                 // what has been hit? Deck/Card/EmptySlot...
                 if (hit.collider.CompareTag("Deck"))
                 {
-                    //clicked deck
                     Deck();
                 }
                 else if (hit.collider.CompareTag("Card"))
                 {
                     Card(hit.collider.gameObject);
-                    CheckAutoWin();
+                    StartCoroutine(CheckAutoWin());
                 }
                 else if (hit.collider.CompareTag("Top"))
                 {
-                    // clicked top
                     Top(hit.collider.gameObject);
                 }
                 else if (hit.collider.CompareTag("Bottom"))
@@ -253,44 +251,38 @@ public class UserInput : MonoBehaviour
         undoManager.ExecuteCommand(new MoveCardCommand(oldPos, newPos, s1, s2, oldParent,solitaire));
         slot1 = this.gameObject;
     }
-    public void CheckAutoWin()
+    public IEnumerator CheckAutoWin()
     {
         if (solitaire.CountCardFace == 21 && solitaire.tripsOnDisplay.Count == 0 && solitaire.deck.Count == 0)
         {
             Debug.LogError(solitaire.CountCardFace);
             bool x = !ManagerPoint.Instance.HasWon();
             int count = 0;
-            while (count <=10)
+            while (count <=12)
             { 
                 count++;    
-                Debug.Log("Check");
+                Debug.LogWarning("Check count is "+ count);
                 for (int i = 0; i < solitaire.bottomPos.Length; i++)
                 {
-                    Debug.Log(solitaire.bottomPos[i].name);
                     if (solitaire.bottomPos[i].transform.childCount >= 2)
                     {
                         Transform latsChild = FindDeepestLastChild(solitaire.bottomPos[i].transform, "Card");
-                        Debug.Log(latsChild.name);  
                         if (latsChild != null)
                         {
                             Selectable stack = latsChild.GetComponent<Selectable>();
                             if (stack != null && stack.cardFace == true)
                             {
                                 slot1 = stack.gameObject;
-                                StartCoroutine(DelayCouroutineAutoStack(stack.gameObject));
+                                AutoStackTop(stack.gameObject);
                             }
                         }
                     }
                 }
+                yield return new WaitForSeconds(0.25f);
             }
             winEffect.gameObject.SetActive(true);
             ManagerPoint.Instance.Win();
         }
-    }
-    IEnumerator DelayCouroutineAutoStack(GameObject stack)
-    {
-        AutoStackTop(stack.gameObject);
-        yield return new WaitForSeconds(1f);
     }
     bool Blocked(GameObject selected)
     {
@@ -343,20 +335,19 @@ public class UserInput : MonoBehaviour
                 if (stack.value == 0 && stack.suit == selected.GetComponent<Selectable>().suit) // and the top position is empty
                 {
                     slot1 = selected;
-                    Stack(stack.gameObject); // stack the ace up top
-                    return;                 // in the first empty position found
+                    Debug.LogError(selected.name+" "+"Child tim duoc la :" + stack.gameObject.name);
+                    Stack(stack.gameObject); 
+                    return;                
                 }
             }
             else
             {
                 if ((solitaire.topPos[i].GetComponent<Selectable>().suit == slot1.GetComponent<Selectable>().suit) && (solitaire.topPos[i].GetComponent<Selectable>().value == slot1.GetComponent<Selectable>().value - 1))
                 {
-                    // if it is the last card (if it has no children)
-                    Debug.Log("Move to but selected diff 1 ");
                     if (HasNoChildren(slot1))
                     {
                         slot1 = selected;
-                        // find a top spot that matches the conditions for auto stacking if it exists
+                       
                         string lastCardname = stack.suit + stack.value.ToString();
                         if (stack.value == 1)
                         {
@@ -374,9 +365,12 @@ public class UserInput : MonoBehaviour
                         {
                             lastCardname = stack.suit + "K";
                         }
+                        Debug.LogError(selected.name+" "+"Child tim duoc la :" + stack.gameObject.name+" "+lastCardname);
                         GameObject lastCard = GameObject.Find(lastCardname);
-                        Stack(lastCard);
-                        return;
+                        if(lastCard != null){
+                            Stack(lastCard);
+                            return;
+                        }
                     }
                 }
             }

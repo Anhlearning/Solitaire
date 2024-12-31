@@ -1708,7 +1708,7 @@ MonoBehaviour:
   deckPlaceHolder: {fileID: 609875041}
   deckRestart: {fileID: 252686755}
   CountCardFace: 0
-  countDownClickDeal: 0.27
+  countDownClickDeal: 0.3
   deckLocation: 0
   trips: 0
   tripsRemainder: 0
@@ -1744,7 +1744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e85ebf4b88a27c649b26c27fd89de84d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countDownTimeUndo: 0.27
+  countDownTimeUndo: 0.3
 --- !u!1 &609875040
 GameObject:
   m_ObjectHideFlags: 0
@@ -5158,6 +5158,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4325707993324636588, guid: 87fde034e455fa84d8627226c8cf8284, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6479212187421710367, guid: 87fde034e455fa84d8627226c8cf8284, type: 3}
+      propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8683034926871503085, guid: 87fde034e455fa84d8627226c8cf8284, type: 3}

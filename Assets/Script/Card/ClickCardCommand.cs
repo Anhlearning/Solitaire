@@ -16,7 +16,8 @@ public class ClickCardCommand : IAction
     public void ExecuteCommand()
     {
         solitaire.CountCardFace++;
-        Debug.LogError(solitaire.CountCardFace);
+        
+        Debug.LogWarning(solitaire.CountCardFace);
         selected.transform.DOScale(new Vector3(0.02f, 0.02f, 0.02f), 0.15f) 
         .OnComplete(() =>
         {
@@ -29,6 +30,7 @@ public class ClickCardCommand : IAction
                         {
                            
                             selected.transform.DOScale(new Vector3(0.017f,0.017f,0.016f), 0.15f);
+
                         });
                 });
         });
@@ -38,7 +40,7 @@ public class ClickCardCommand : IAction
     {
         solitaire.CountCardFace--;
 
-        Debug.LogError(solitaire.CountCardFace);
+        Debug.LogWarning(solitaire.CountCardFace);
         selected.transform.DOScale(new Vector3(0.02f, 0.02f, 0.02f), 0.15f) 
         .OnComplete(() =>
         {
