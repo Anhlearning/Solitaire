@@ -21,11 +21,11 @@ public class ClickCardCommand : IAction
         selected.transform.DOScale(new Vector3(0.02f, 0.02f, 0.02f), 0.15f) 
         .OnComplete(() =>
         {
-            selected.transform.DORotate(new Vector3(0, 90, 0), 0.3f, RotateMode.FastBeyond360) 
+            selected.transform.DORotate(new Vector3(0, 90, 0), 0.15f, RotateMode.FastBeyond360) 
                 .OnComplete(() =>
                 {
                     selected.cardFace = true; 
-                    selected.transform.DORotate(new Vector3(0, 0, 0), 0.3f, RotateMode.FastBeyond360) 
+                    selected.transform.DORotate(new Vector3(0, 0, 0), 0.15f, RotateMode.FastBeyond360) 
                         .OnComplete(() =>
                         {
                            
