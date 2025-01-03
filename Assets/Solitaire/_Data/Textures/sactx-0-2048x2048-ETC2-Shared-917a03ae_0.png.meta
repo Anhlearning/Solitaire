@@ -1,0 +1,4703 @@
+fileFormatVersion: 2
+guid: faafeec78f7c6ab418d2d160a2dd03f3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: energy_currency_btn
+  - first:
+      213: 21300002
+    second: build_cofeetable
+  - first:
+      213: 21300004
+    second: build_office_table
+  - first:
+      213: 21300006
+    second: close_button
+  - first:
+      213: 21300008
+    second: build_fridge
+  - first:
+      213: 21300010
+    second: move icon
+  - first:
+      213: 21300012
+    second: pt_flag
+  - first:
+      213: 21300014
+    second: target_furniture_icon
+  - first:
+      213: 21300016
+    second: ch_flag
+  - first:
+      213: 21300018
+    second: dating_heart_full
+  - first:
+      213: 21300020
+    second: emoji_sad3.png
+  - first:
+      213: 21300022
+    second: emoji_good1.png
+  - first:
+      213: 21300024
+    second: vip_popup_icon
+  - first:
+      213: 21300026
+    second: build_nightstand
+  - first:
+      213: 21300028
+    second: energy_progress_fill
+  - first:
+      213: 21300030
+    second: pack_icon_paper
+  - first:
+      213: 21300032
+    second: check_icon
+  - first:
+      213: 21300034
+    second: en_flag
+  - first:
+      213: 21300036
+    second: build_table
+  - first:
+      213: 21300038
+    second: pack_icon_tools
+  - first:
+      213: 21300040
+    second: energy_small_icon
+  - first:
+      213: 21300042
+    second: gems_icon
+  - first:
+      213: 21300044
+    second: build_bathtub
+  - first:
+      213: 21300046
+    second: build_sofaright
+  - first:
+      213: 21300048
+    second: ticket_icon_old
+  - first:
+      213: 21300050
+    second: vip_popup_outline
+  - first:
+      213: 21300052
+    second: emoji_good4.png
+  - first:
+      213: 21300054
+    second: build_singlebed
+  - first:
+      213: 21300056
+    second: Icon_Money
+  - first:
+      213: 21300058
+    second: TutorialHand
+  - first:
+      213: 21300060
+    second: home_icon
+  - first:
+      213: 21300062
+    second: build_window
+  - first:
+      213: 21300064
+    second: vip_box_ads
+  - first:
+      213: 21300066
+    second: es_flag
+  - first:
+      213: 21300068
+    second: vip_box_popup
+  - first:
+      213: 21300070
+    second: Icon_NoAds_new
+  - first:
+      213: 21300072
+    second: pack_icon_tech
+  - first:
+      213: 21300074
+    second: star_small.png
+  - first:
+      213: 21300076
+    second: build_floorlight
+  - first:
+      213: 21300078
+    second: emoji_good3.png
+  - first:
+      213: 21300080
+    second: save_icon_home_outline
+  - first:
+      213: 21300082
+    second: Icon_NoAds
+  - first:
+      213: 21300084
+    second: star_small_no.png
+  - first:
+      213: 21300086
+    second: language_switch_arrow
+  - first:
+      213: 21300088
+    second: hint_icon
+  - first:
+      213: 21300090
+    second: star_icon
+  - first:
+      213: 21300092
+    second: ja_flag
+  - first:
+      213: 21300094
+    second: room_bedroom
+  - first:
+      213: 21300096
+    second: NoAds_sale_back
+  - first:
+      213: 21300098
+    second: Star
+  - first:
+      213: 21300100
+    second: pack_icon_toys
+  - first:
+      213: 21300102
+    second: build_mirror
+  - first:
+      213: 21300104
+    second: build_floor
+  - first:
+      213: 21300106
+    second: build_wall
+  - first:
+      213: 21300108
+    second: vip_popup_back
+  - first:
+      213: 21300110
+    second: plus_counter_icon
+  - first:
+      213: 21300112
+    second: golden_frame
+  - first:
+      213: 21300114
+    second: Circle_200
+  - first:
+      213: 21300116
+    second: target_garbage_icon
+  - first:
+      213: 21300118
+    second: room_closet
+  - first:
+      213: 21300120
+    second: pack_icon_glass
+  - first:
+      213: 21300122
+    second: Icon_HomeMap
+  - first:
+      213: 21300124
+    second: room_bathroom
+  - first:
+      213: 21300126
+    second: build_fireplace
+  - first:
+      213: 21300128
+    second: pin_circle
+  - first:
+      213: 21300130
+    second: build_chair
+  - first:
+      213: 21300132
+    second: build_sofa
+  - first:
+      213: 21300134
+    second: energy_icon
+  - first:
+      213: 21300136
+    second: Icon_Next
+  - first:
+      213: 21300138
+    second: emoji_sad1.png
+  - first:
+      213: 21300140
+    second: build_sofaleft
+  - first:
+      213: 21300142
+    second: fr_flag
+  - first:
+      213: 21300144
+    second: Circle_74
+  - first:
+      213: 21300146
+    second: book_icon
+  - first:
+      213: 21300148
+    second: energy_big_multiply_icon
+  - first:
+      213: 21300150
+    second: room_photo
+  - first:
+      213: 21300152
+    second: build_decore_floor
+  - first:
+      213: 21300154
+    second: gem_icon
+  - first:
+      213: 21300156
+    second: game_center_color
+  - first:
+      213: 21300158
+    second: de_flag
+  - first:
+      213: 21300160
+    second: emoji_sad2.png
+  - first:
+      213: 21300162
+    second: build_washing_machine
+  - first:
+      213: 21300164
+    second: Icon_PlayAds
+  - first:
+      213: 21300166
+    second: ads_icon
+  - first:
+      213: 21300168
+    second: build_cupboard
+  - first:
+      213: 21300170
+    second: build_toilet
+  - first:
+      213: 21300172
+    second: Icon_WatchAd
+  - first:
+      213: 21300174
+    second: pin_trash
+  - first:
+      213: 21300176
+    second: build_rack4
+  - first:
+      213: 21300178
+    second: emoji_good2.png
+  - first:
+      213: 21300180
+    second: Icon_Settings
+  - first:
+      213: 21300182
+    second: build_rack1
+  - first:
+      213: 21300184
+    second: Flare
+  - first:
+      213: 21300186
+    second: invalid_hint
+  - first:
+      213: 21300188
+    second: selection_box2
+  - first:
+      213: 21300190
+    second: build_curtains
+  - first:
+      213: 21300192
+    second: language_switch_fade
+  - first:
+      213: 21300194
+    second: stage_pack
+  - first:
+      213: 21300196
+    second: close_button
+  - first:
+      213: 21300198
+    second: Icon_X
+  - first:
+      213: 21300200
+    second: build_stove
+  - first:
+      213: 21300202
+    second: dating_heart_empty
+  - first:
+      213: 21300204
+    second: icon_vip_button
+  - first:
+      213: 21300206
+    second: save_icon_home
+  - first:
+      213: 21300208
+    second: restore_purchases_icon
+  - first:
+      213: 21300210
+    second: separator
+  - first:
+      213: 21300212
+    second: room_button_dark
+  - first:
+      213: 21300214
+    second: build_stool
+  - first:
+      213: 21300216
+    second: gem_reward
+  - first:
+      213: 21300218
+    second: selection_box
+  - first:
+      213: 21300220
+    second: ticket_icon
+  - first:
+      213: 21300222
+    second: build_rack2
+  - first:
+      213: 21300224
+    second: build_endtable
+  - first:
+      213: 21300226
+    second: build_comode
+  - first:
+      213: 21300228
+    second: it_flag
+  - first:
+      213: 21300230
+    second: pack_icon_textile
+  - first:
+      213: 21300232
+    second: skotch_icon
+  - first:
+      213: 21300234
+    second: Icon_Repeat
+  - first:
+      213: 21300236
+    second: target_setup_icon
+  - first:
+      213: 21300238
+    second: build_doublebed
+  - first:
+      213: 21300240
+    second: level_progress
+  - first:
+      213: 21300242
+    second: build_shelf1
+  - first:
+      213: 21300244
+    second: White
+  - first:
+      213: 21300246
+    second: build_tablelight
+  - first:
+      213: 21300248
+    second: Rhomb
+  - first:
+      213: 21300250
+    second: build_shelf4
+  - first:
+      213: 21300252
+    second: build_childbed
+  - first:
+      213: 21300254
+    second: check_icon2
+  - first:
+      213: 21300256
+    second: build_sink
+  - first:
+      213: 21300258
+    second: ko_flag
+  - first:
+      213: 21300260
+    second: Icon_timer_white
+  - first:
+      213: 21300262
+    second: video_icon
+  - first:
+      213: 21300264
+    second: stage_furniture
+  - first:
+      213: 21300266
+    second: energy_ads_btn
+  - first:
+      213: 21300268
+    second: energy_progress_back
+  - first:
+      213: 21300270
+    second: copy
+  - first:
+      213: 21300272
+    second: emoji_sad4.png
+  - first:
+      213: 21300274
+    second: room_button_invalid
+  - first:
+      213: 21300276
+    second: build_door
+  - first:
+      213: 21300278
+    second: pack_icon_other
+  - first:
+      213: 21300280
+    second: games_controller
+  - first:
+      213: 21300282
+    second: green_check
+  - first:
+      213: 21300284
+    second: build_office_chair
+  - first:
+      213: 21300286
+    second: Icon_Pause
+  - first:
+      213: 21300288
+    second: title_overlay
+  - first:
+      213: 21300290
+    second: trash
+  - first:
+      213: 21300292
+    second: button_video_icon
+  - first:
+      213: 21300294
+    second: energy_big_one_icon
+  - first:
+      213: 21300296
+    second: tu_flag
+  - first:
+      213: 21300298
+    second: build_decore_wall
+  - first:
+      213: 21300300
+    second: mail_icon
+  - first:
+      213: 21300302
+    second: ticket_icon2
+  - first:
+      213: 21300304
+    second: Icon_timer
+  - first:
+      213: 21300306
+    second: build_shelf2
+  - first:
+      213: 21300308
+    second: small_button_purple_back
+  - first:
+      213: 21300310
+    second: big_star
+  - first:
+      213: 21300312
+    second: infinity_icon
+  - first:
+      213: 21300314
+    second: build_bar_stool
+  - first:
+      213: 21300316
+    second: timer_icon
+  - first:
+      213: 21300318
+    second: stage_customize
+  - first:
+      213: 21300320
+    second: room_button_blue
+  - first:
+      213: 21300322
+    second: room_kitchen
+  - first:
+      213: 21300324
+    second: Cross
+  - first:
+      213: 21300326
+    second: build_decore_table
+  - first:
+      213: 21300328
+    second: invalid_indicator
+  - first:
+      213: 21300330
+    second: build_tvstand
+  - first:
+      213: 21300332
+    second: Icon_NoAds_pack
+  - first:
+      213: 21300334
+    second: pack_icon_rubbish
+  - first:
+      213: 21300336
+    second: level_progress_icon
+  - first:
+      213: 21300338
+    second: vip_indicator_icon
+  - first:
+      213: 21300340
+    second: ru_flag
+  - first:
+      213: 21300342
+    second: brush_icon
+  - first:
+      213: 21300344
+    second: build_washstand
+  - first:
+      213: 21300346
+    second: build_dresser
+  - first:
+      213: 21300348
+    second: TutorialShade
+  - first:
+      213: 21300350
+    second: vip_box_close
+  - first:
+      213: 21300352
+    second: big_star_no
+  - first:
+      213: 21300354
+    second: ad_icon
+  - first:
+      213: 21300356
+    second: TutorialHandPress
+  - first:
+      213: 21300358
+    second: heart
+  - first:
+      213: 21300360
+    second: build_carpet
+  - first:
+      213: 21300362
+    second: vip_box_header
+  - first:
+      213: 21300364
+    second: build_poof
+  - first:
+      213: 21300366
+    second: room_livingroom
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 0
+  flipbookColumns: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: energy_currency_btn
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1844
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 31, y: 31, z: 31, w: 31}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0f12b654a549c98907d096a70828a9
+      internalID: 21300000
+      vertices:
+      - {x: 0, y: 64}
+      - {x: 64, y: 64}
+      - {x: 0, y: 0}
+      - {x: 64, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_cofeetable
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 994
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5a761df4c543b9ab2dd05607200d7d
+      internalID: 21300002
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_office_table
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1384
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b652bbda8c3c454894462c926e800a2d
+      internalID: 21300004
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: close_button
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 1658
+        width: 102
+        height: 102
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51, y: -51}
+        - {x: -51, y: 51}
+        - {x: 51, y: 51}
+        - {x: 51, y: -51}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a72633a5efc4487ba229228044c881a
+      internalID: 21300006
+      vertices:
+      - {x: 0, y: 102}
+      - {x: 102, y: 102}
+      - {x: 0, y: 0}
+      - {x: 102, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_fridge
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 881
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624b98477ebe49b3b0a989dd8042535b
+      internalID: 21300008
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: move icon
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 322
+        width: 232
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116, y: -116}
+        - {x: -116, y: 116}
+        - {x: 116, y: 116}
+        - {x: 116, y: -116}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4795ae45484e88a56d36544db852e1
+      internalID: 21300010
+      vertices:
+      - {x: 0, y: 232}
+      - {x: 232, y: 232}
+      - {x: 0, y: 0}
+      - {x: 232, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: target_furniture_icon
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 1420
+        width: 56
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: -23.5}
+        - {x: -28, y: 23.5}
+        - {x: 28, y: 23.5}
+        - {x: 28, y: -23.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b042c3403f1c489ead6da007d9f82b47
+      internalID: 21300014
+      vertices:
+      - {x: 0, y: 47}
+      - {x: 56, y: 47}
+      - {x: 0, y: 0}
+      - {x: 56, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_nightstand
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 994
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2553fd90224f929d1c94477cf468ac
+      internalID: 21300026
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_progress_fill
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1682
+        width: 153
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -76.5, y: -28}
+        - {x: -76.5, y: 28}
+        - {x: 76.5, y: 28}
+        - {x: 76.5, y: -28}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281011294d4d4486bb2ecbf44508450b
+      internalID: 21300028
+      vertices:
+      - {x: 0, y: 56}
+      - {x: 153, y: 56}
+      - {x: 0, y: 0}
+      - {x: 153, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pack_icon_paper
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 138
+        width: 97
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.5, y: -45}
+        - {x: -48.5, y: 45}
+        - {x: 48.5, y: 45}
+        - {x: 48.5, y: -45}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd99a7fccfc44d3a22c23bf52a7277b
+      internalID: 21300030
+      vertices:
+      - {x: 0, y: 90}
+      - {x: 97, y: 90}
+      - {x: 0, y: 0}
+      - {x: 97, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: check_icon
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 1783
+        width: 72
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: -28}
+        - {x: -36, y: 28}
+        - {x: 36, y: 28}
+        - {x: 36, y: -28}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4eddbfc0d18475eb758f0e9a4e85f59
+      internalID: 21300032
+      vertices:
+      - {x: 0, y: 56}
+      - {x: 72, y: 56}
+      - {x: 0, y: 0}
+      - {x: 72, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_table
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1122
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ae7b1c5e5c4b319a94466724b03c9d
+      internalID: 21300036
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_bathtub
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1122
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b47ce7164b4bdb981a89a465af83ea
+      internalID: 21300044
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_sofaright
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1250
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d689d813ae64fcdbe41cc2a09df96b7
+      internalID: 21300046
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ticket_icon_old
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1771
+        width: 94
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: -47}
+        - {x: -47, y: 47}
+        - {x: 47, y: 47}
+        - {x: 47, y: -47}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94659e12d664f8b90280a0f1bb1036a
+      internalID: 21300048
+      vertices:
+      - {x: 0, y: 94}
+      - {x: 94, y: 94}
+      - {x: 0, y: 0}
+      - {x: 94, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vip_popup_outline
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 416
+        width: 156
+        height: 123
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 110, y: 45, z: 44, w: 75}
+      outline:
+      - - {x: -78, y: -61.5}
+        - {x: -78, y: 61.5}
+        - {x: 78, y: 61.5}
+        - {x: 78, y: -61.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2708d41722d44b7ebf46547a9a2aa06f
+      internalID: 21300050
+      vertices:
+      - {x: 0, y: 123}
+      - {x: 156, y: 123}
+      - {x: 0, y: 0}
+      - {x: 156, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_singlebed
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1250
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0655370129432fadafd36326e798b8
+      internalID: 21300054
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Money
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 1137
+        width: 94
+        height: 105
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: -52.499996}
+        - {x: -47, y: 52.499996}
+        - {x: 47, y: 52.499996}
+        - {x: 47, y: -52.499996}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb9b710d5e045cc808399c3da05dadb
+      internalID: 21300056
+      vertices:
+      - {x: 0, y: 105}
+      - {x: 94, y: 105}
+      - {x: 0, y: 0.0000038146973}
+      - {x: 94, y: 0.0000038146973}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutorialHand
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 398
+        width: 152
+        height: 184
+      alignment: 9
+      pivot: {x: 0.47000003, y: 0.94000006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -76, y: -92}
+        - {x: -76, y: 92}
+        - {x: 76, y: 92}
+        - {x: 76, y: -92}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab787c969b54dc79dff2473ac8fe6f1
+      internalID: 21300058
+      vertices:
+      - {x: 4.5599976, y: 103.03999}
+      - {x: 156.56, y: 103.03999}
+      - {x: 4.5599976, y: -80.96001}
+      - {x: 156.56, y: -80.96001}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: home_icon
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 0
+        width: 132
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66, y: -68}
+        - {x: -66, y: 68}
+        - {x: 66, y: 68}
+        - {x: 66, y: -68}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0509ece2d2ed4206a5aab68efe770042
+      internalID: 21300060
+      vertices:
+      - {x: 0, y: 136}
+      - {x: 132, y: 136}
+      - {x: 0, y: 0}
+      - {x: 132, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_window
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1254
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fd050143304845812bb6b01f0b1571
+      internalID: 21300062
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vip_box_ads
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1818
+        width: 67
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: -33.5}
+        - {x: -33.5, y: 33.5}
+        - {x: 33.5, y: 33.5}
+        - {x: 33.5, y: -33.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b186217e60eb4200b4fea91c696d1143
+      internalID: 21300064
+      vertices:
+      - {x: 0, y: 67}
+      - {x: 67, y: 67}
+      - {x: 0, y: 0}
+      - {x: 67, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pack_icon_tech
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1418
+        width: 108
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54.000004, y: -37.5}
+        - {x: -54.000004, y: 37.5}
+        - {x: 54.000004, y: 37.5}
+        - {x: 54.000004, y: -37.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891739e809cb491e88690ad42ecc3064
+      internalID: 21300072
+      vertices:
+      - {x: -0.0000038146973, y: 75}
+      - {x: 108, y: 75}
+      - {x: -0.0000038146973, y: 0}
+      - {x: 108, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_small.png
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1507
+        width: 60
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.000002, y: -28.5}
+        - {x: -30.000002, y: 28.5}
+        - {x: 30.000002, y: 28.5}
+        - {x: 30.000002, y: -28.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a1e5320e704fe2baa35e11cee84778
+      internalID: 21300074
+      vertices:
+      - {x: -0.0000019073486, y: 57}
+      - {x: 60, y: 57}
+      - {x: -0.0000019073486, y: 0}
+      - {x: 60, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_floorlight
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 891
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24270dfc73d44324b04ed2d77b41c2ca
+      internalID: 21300076
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_small_no.png
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1844
+        width: 62
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: -29.499998}
+        - {x: -31, y: 29.499998}
+        - {x: 31, y: 29.499998}
+        - {x: 31, y: -29.499998}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74bcf1cdcde49fb98c61e8a0987c541
+      internalID: 21300084
+      vertices:
+      - {x: 0, y: 59}
+      - {x: 62, y: 59}
+      - {x: 0, y: 0.0000019073486}
+      - {x: 62, y: 0.0000019073486}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: language_switch_arrow
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 1438
+        width: 73
+        height: 81
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: -40.5}
+        - {x: -36.5, y: 40.5}
+        - {x: 36.5, y: 40.5}
+        - {x: 36.5, y: -40.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2902888e61c4100888177d1db0d6016
+      internalID: 21300086
+      vertices:
+      - {x: 0, y: 81}
+      - {x: 73, y: 81}
+      - {x: 0, y: 0}
+      - {x: 73, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room_bedroom
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 931
+        width: 95
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47.5, y: -47.5}
+        - {x: -47.5, y: 47.5}
+        - {x: 47.5, y: 47.5}
+        - {x: 47.5, y: -47.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac22a2d8bcf4168983143ccb2bdac18
+      internalID: 21300094
+      vertices:
+      - {x: 0, y: 95}
+      - {x: 95, y: 95}
+      - {x: 0, y: 0}
+      - {x: 95, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoAds_sale_back
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 0
+        width: 167
+        height: 167
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -83.5, y: -83.5}
+        - {x: -83.5, y: 83.5}
+        - {x: 83.5, y: 83.5}
+        - {x: 83.5, y: -83.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a79a47aff0e4604b9f0400711850c53
+      internalID: 21300096
+      vertices:
+      - {x: 0, y: 167}
+      - {x: 167, y: 167}
+      - {x: 0, y: 0}
+      - {x: 167, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_mirror
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1019
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ada8bb59ce4e059987de4648cf3f71
+      internalID: 21300102
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_floor
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1021
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6dba71931c4f1c9206cd2a58e9e576
+      internalID: 21300104
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_wall
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 891
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d20c4a54354beb8108fe5d2eb66a54
+      internalID: 21300106
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vip_popup_back
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 814
+        width: 152
+        height: 119
+      alignment: 9
+      pivot: {x: 0.562, y: 1}
+      border: {x: 110, y: 46, z: 44, w: 75}
+      outline:
+      - - {x: -76, y: -59.500008}
+        - {x: -76, y: 59.5}
+        - {x: 76, y: 59.5}
+        - {x: 76, y: -59.500008}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad86d8aaea39479fa378ec18adb4552c
+      internalID: 21300108
+      vertices:
+      - {x: -9.423996, y: 59.5}
+      - {x: 142.576, y: 59.5}
+      - {x: -9.423996, y: -59.500008}
+      - {x: 142.576, y: -59.500008}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plus_counter_icon
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1757
+        width: 31
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: -15.5}
+        - {x: -15.5, y: 15.5}
+        - {x: 15.5, y: 15.5}
+        - {x: 15.5, y: -15.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f537979a234aa9977f285945219fc6
+      internalID: 21300110
+      vertices:
+      - {x: 0, y: 31}
+      - {x: 31, y: 31}
+      - {x: 0, y: 0}
+      - {x: 31, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golden_frame
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 580
+        width: 247
+        height: 253
+      alignment: 9
+      pivot: {x: 0.506, y: 0.605}
+      border: {x: 125, y: 153, z: 122, w: 100}
+      outline:
+      - - {x: -123.50001, y: -126.5}
+        - {x: -123.50001, y: 126.5}
+        - {x: 123.5, y: 126.5}
+        - {x: 123.5, y: -126.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4388381ed774356be996b2b156ea850
+      internalID: 21300112
+      vertices:
+      - {x: -1.4820023, y: 226.435}
+      - {x: 245.518, y: 226.435}
+      - {x: -1.4820023, y: -26.565002}
+      - {x: 245.518, y: -26.565002}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle_200
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 240
+        width: 200
+        height: 200
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 99, y: 99, z: 99, w: 99}
+      outline:
+      - - {x: -100, y: -100}
+        - {x: -100, y: 100}
+        - {x: 100, y: 100}
+        - {x: 100, y: -100}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1100d4eb8b49b6b198e79cd486b34b
+      internalID: 21300114
+      vertices:
+      - {x: 0, y: 200}
+      - {x: 200, y: 200}
+      - {x: 0, y: 0}
+      - {x: 200, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: target_garbage_icon
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 240
+        width: 48
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: -29.499998}
+        - {x: -24, y: 29.499998}
+        - {x: 24, y: 29.499998}
+        - {x: 24, y: -29.499998}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f238b7f95642d9a5a2e886f3de726a
+      internalID: 21300116
+      vertices:
+      - {x: 0, y: 59}
+      - {x: 48, y: 59}
+      - {x: 0, y: 0.0000019073486}
+      - {x: 48, y: 0.0000019073486}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room_closet
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 1540
+        width: 77
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: -49.5}
+        - {x: -38.5, y: 49.5}
+        - {x: 38.5, y: 49.5}
+        - {x: 38.5, y: -49.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de288f787d2244f9941d923881618e83
+      internalID: 21300118
+      vertices:
+      - {x: 0, y: 99}
+      - {x: 77, y: 99}
+      - {x: 0, y: 0}
+      - {x: 77, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pack_icon_glass
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 1564
+        width: 114
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: -46}
+        - {x: -57, y: 46}
+        - {x: 57, y: 46}
+        - {x: 57, y: -46}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9844074e14f4b57a33c5b3306800be7
+      internalID: 21300120
+      vertices:
+      - {x: 0, y: 92}
+      - {x: 114, y: 92}
+      - {x: 0, y: 0}
+      - {x: 114, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_HomeMap
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1666
+        width: 90
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: -44.5}
+        - {x: -45, y: 44.5}
+        - {x: 45, y: 44.5}
+        - {x: 45, y: -44.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785691441a74428da679448d0d792be8
+      internalID: 21300122
+      vertices:
+      - {x: 0, y: 89}
+      - {x: 90, y: 89}
+      - {x: 0, y: 0}
+      - {x: 90, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room_bathroom
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1758
+        width: 107
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53.500004, y: -54.000004}
+        - {x: -53.500004, y: 54.000004}
+        - {x: 53.500004, y: 54.000004}
+        - {x: 53.500004, y: -54.000004}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561b6cf3fe0e4adda0450d83fa59ef6c
+      internalID: 21300124
+      vertices:
+      - {x: -0.0000038146973, y: 108}
+      - {x: 107, y: 108}
+      - {x: -0.0000038146973, y: -0.0000038146973}
+      - {x: 107, y: -0.0000038146973}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_fireplace
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1149
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182ee2b4d1b14f09b8dfb32a77e157a8
+      internalID: 21300126
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pin_circle
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 169
+        width: 150
+        height: 150
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -75, y: -75}
+        - {x: -75, y: 75}
+        - {x: 75, y: 75}
+        - {x: 75, y: -75}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78333880931a4094be40e2cb8bd417e8
+      internalID: 21300128
+      vertices:
+      - {x: 0, y: 150}
+      - {x: 150, y: 150}
+      - {x: 0, y: 0}
+      - {x: 150, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_chair
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1019
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14587c27030430caeebc3f1a23c19f9
+      internalID: 21300130
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_sofa
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 891
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d876ac47a2544fd908a50341acf2fef
+      internalID: 21300132
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Next
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 1244
+        width: 77
+        height: 111
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: -55.5}
+        - {x: -38.5, y: 55.5}
+        - {x: 38.5, y: 55.5}
+        - {x: 38.5, y: -55.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85777838476a406880a3f7e8a46c20eb
+      internalID: 21300136
+      vertices:
+      - {x: 0, y: 111}
+      - {x: 77, y: 111}
+      - {x: 0, y: 0}
+      - {x: 77, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_sofaleft
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1147
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac807063d394186881ee227762e7cca
+      internalID: 21300140
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle_74
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 1438
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: -37}
+        - {x: -37, y: 37}
+        - {x: 37, y: 37}
+        - {x: 37, y: -37}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d7c2e5352c4b83a2af6b61494aea8e
+      internalID: 21300144
+      vertices:
+      - {x: 0, y: 74}
+      - {x: 74, y: 74}
+      - {x: 0, y: 0}
+      - {x: 74, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room_photo
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1533
+        width: 93
+        height: 147
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 36, y: 84, z: 36, w: 41}
+      outline:
+      - - {x: -46.5, y: -73.5}
+        - {x: -46.5, y: 73.5}
+        - {x: 46.5, y: 73.5}
+        - {x: 46.5, y: -73.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e80c4e9e5f4528b68701415d7c06e8
+      internalID: 21300150
+      vertices:
+      - {x: 0, y: 147}
+      - {x: 93, y: 147}
+      - {x: 0, y: 0}
+      - {x: 93, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_decore_floor
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1512
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408cabda8c7b4a3abc858a468650ab53
+      internalID: 21300152
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_washing_machine
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1378
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a45b897a75432a841dbb585eadac27
+      internalID: 21300162
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_PlayAds
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 1319
+        width: 95
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47.5, y: -47.5}
+        - {x: -47.5, y: 47.5}
+        - {x: 47.5, y: 47.5}
+        - {x: 47.5, y: -47.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592cc36c588742b289ab7ea05ca4d605
+      internalID: 21300164
+      vertices:
+      - {x: 0, y: 95}
+      - {x: 95, y: 95}
+      - {x: 0, y: 0}
+      - {x: 95, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ads_icon
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1905
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: -22.5}
+        - {x: -22.5, y: 22.5}
+        - {x: 22.5, y: 22.5}
+        - {x: 22.5, y: -22.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a71e4eeb27f4436b54b43298eead70e
+      internalID: 21300166
+      vertices:
+      - {x: 0, y: 45}
+      - {x: 45, y: 45}
+      - {x: 0, y: 0}
+      - {x: 45, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_cupboard
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1510
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881a8b2276c34558b1acf75ddc289f59
+      internalID: 21300168
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_toilet
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 935
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f51afbf6de4c9185a43a34d0739da1
+      internalID: 21300170
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pin_trash
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1868
+        width: 69
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: -44}
+        - {x: -34.5, y: 44}
+        - {x: 34.5, y: 44}
+        - {x: 34.5, y: -44}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31f7b34f7e84fa9907ac8b2fb5c2822
+      internalID: 21300174
+      vertices:
+      - {x: 0, y: 88}
+      - {x: 69, y: 88}
+      - {x: 0, y: 0}
+      - {x: 69, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_rack4
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1277
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2922db5f2fa45c5a9097f1436284573
+      internalID: 21300176
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Settings
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1335
+        width: 88
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: -44}
+        - {x: -44, y: 44}
+        - {x: 44, y: 44}
+        - {x: 44, y: -44}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feef3182053041509f5cffb941dc686a
+      internalID: 21300180
+      vertices:
+      - {x: 0, y: 88}
+      - {x: 88, y: 88}
+      - {x: 0, y: 0}
+      - {x: 88, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_rack1
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1147
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e3d225b6ee4b8b90beeb3b4f6885eb
+      internalID: 21300182
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flare
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 195
+        width: 129
+        height: 219
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64.5, y: -109.5}
+        - {x: -64.5, y: 109.5}
+        - {x: 64.5, y: 109.5}
+        - {x: 64.5, y: -109.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5606305c5824d3a9779a286a7a62674
+      internalID: 21300184
+      vertices:
+      - {x: 0, y: 219}
+      - {x: 129, y: 219}
+      - {x: 0, y: 0}
+      - {x: 129, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invalid_hint
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 393
+        width: 316
+        height: 185
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 65, y: 109, z: 240, w: 66}
+      outline:
+      - - {x: -158, y: -104.5}
+        - {x: -158, y: 104.499985}
+        - {x: 158, y: 104.499985}
+        - {x: 158, y: -104.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61b216ede804912893c0078f12a9b4b
+      internalID: 21300186
+      vertices:
+      - {x: -5.103363, y: 313.5}
+      - {x: 310.89664, y: 313.5}
+      - {x: -5.103363, y: 104.5}
+      - {x: 310.89664, y: 104.5}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_curtains
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1640
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc215e155644760835af5e543942ad0
+      internalID: 21300190
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: language_switch_fade
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 240
+        width: 16
+        height: 2
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -1}
+        - {x: -8, y: 1}
+        - {x: 8, y: 1}
+        - {x: 8, y: -1}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a2a9837dc54f4a8cc64c31e54b59c2
+      internalID: 21300192
+      vertices:
+      - {x: 0, y: 2}
+      - {x: 16, y: 2}
+      - {x: 0, y: 0}
+      - {x: 16, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stage_pack
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1201
+        width: 53
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.499998, y: -27.5}
+        - {x: -26.499998, y: 27.5}
+        - {x: 26.499998, y: 27.5}
+        - {x: 26.499998, y: -27.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502edafbd1ac4c26b5ae7283f4548141
+      internalID: 21300194
+      vertices:
+      - {x: 0.0000019073486, y: 55}
+      - {x: 53, y: 55}
+      - {x: 0.0000019073486, y: 0}
+      - {x: 53, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_X
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 1336
+        width: 52
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: -26}
+        - {x: -26, y: 26}
+        - {x: 26, y: 26}
+        - {x: 26, y: -26}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9be8f8c5f53404cbd0256987abc0b8b
+      internalID: 21300198
+      vertices:
+      - {x: 0, y: 52}
+      - {x: 52, y: 52}
+      - {x: 0, y: 0}
+      - {x: 52, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_stove
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1275
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247404c7069d40c0b18310ef68cf4c7c
+      internalID: 21300200
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dating_heart_empty
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 1641
+        width: 88
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: -43}
+        - {x: -44, y: 43}
+        - {x: 44, y: 43}
+        - {x: 44, y: -43}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5740286cb5b34446be182584607942bb
+      internalID: 21300202
+      vertices:
+      - {x: 0, y: 86}
+      - {x: 88, y: 86}
+      - {x: 0, y: 0}
+      - {x: 88, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: restore_purchases_icon
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1357
+        width: 69
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: -30.5}
+        - {x: -34.5, y: 30.5}
+        - {x: 34.5, y: 30.5}
+        - {x: 34.5, y: -30.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e55af93213845778dc2d68a0540fbda
+      internalID: 21300208
+      vertices:
+      - {x: 0, y: 61}
+      - {x: 69, y: 61}
+      - {x: 0, y: 0}
+      - {x: 69, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: separator
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 412
+        width: 3
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: -64}
+        - {x: -1.5, y: 64}
+        - {x: 1.5, y: 64}
+        - {x: 1.5, y: -64}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265b561257d34bd2ae960f1d77cceafb
+      internalID: 21300210
+      vertices:
+      - {x: 0, y: 128}
+      - {x: 3, y: 128}
+      - {x: 0, y: 0}
+      - {x: 3, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room_button_dark
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 210
+        width: 186
+        height: 186
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: -93}
+        - {x: -93, y: 93}
+        - {x: 93, y: 93}
+        - {x: 93, y: -93}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d65b5310ec47cf86762d33bfe311dc
+      internalID: 21300212
+      vertices:
+      - {x: 0, y: 186}
+      - {x: 186, y: 186}
+      - {x: 0, y: 0}
+      - {x: 186, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_stool
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1147
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68534fc31574d4c8d675bc2649af0c1
+      internalID: 21300214
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ticket_icon
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 1717
+        width: 75
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: -32}
+        - {x: -37.5, y: 32}
+        - {x: 37.5, y: 32}
+        - {x: 37.5, y: -32}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fbe0ee570f403bbb3765cc8e4abc14
+      internalID: 21300220
+      vertices:
+      - {x: 0, y: 64}
+      - {x: 75, y: 64}
+      - {x: 0, y: 0}
+      - {x: 75, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_rack2
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1275
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61572b1a9c7a42c3a2812f32ff742db4
+      internalID: 21300222
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_endtable
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1063
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3d3f85d8954393bae91677d6c78bf5
+      internalID: 21300224
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_comode
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1638
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c56940fa4444aaa22de06bc51ff2cd
+      internalID: 21300226
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pack_icon_textile
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1244
+        width: 99
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -44.5}
+        - {x: -49.5, y: 44.5}
+        - {x: 49.5, y: 44.5}
+        - {x: 49.5, y: -44.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ce702fdbe24e28aaa4d2d2f5f0db0d
+      internalID: 21300230
+      vertices:
+      - {x: 0, y: 89}
+      - {x: 99, y: 89}
+      - {x: 0, y: 0}
+      - {x: 99, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skotch_icon
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 1320
+        width: 86
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: -48}
+        - {x: -43, y: 48}
+        - {x: 43, y: 48}
+        - {x: 43, y: -48}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e9140106424d349e0bc5b7c67ac0cc
+      internalID: 21300232
+      vertices:
+      - {x: 0, y: 96}
+      - {x: 86, y: 96}
+      - {x: 0, y: 0}
+      - {x: 86, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Repeat
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 584
+        width: 77
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: -38.5}
+        - {x: -38.5, y: 38.5}
+        - {x: 38.5, y: 38.5}
+        - {x: 38.5, y: -38.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8afbca3587c4579bd47320038e294c9
+      internalID: 21300234
+      vertices:
+      - {x: 0, y: 77}
+      - {x: 77, y: 77}
+      - {x: 0, y: 0}
+      - {x: 77, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: target_setup_icon
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 1717
+        width: 54
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.000002, y: -27.000002}
+        - {x: -27.000002, y: 27.000002}
+        - {x: 27.000002, y: 27.000002}
+        - {x: 27.000002, y: -27.000002}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba8bdf584bb4a8c86a88b75fb32b2e9
+      internalID: 21300236
+      vertices:
+      - {x: -0.0000019073486, y: 54}
+      - {x: 54, y: 54}
+      - {x: -0.0000019073486, y: -0.0000019073486}
+      - {x: 54, y: -0.0000019073486}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_doublebed
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1378
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f890e7051b04508af73eba49fa455eb
+      internalID: 21300238
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_progress
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 835
+        width: 455
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -227.50002, y: -27.000002}
+        - {x: -227.50002, y: 27.000002}
+        - {x: 227.50002, y: 27.000002}
+        - {x: 227.50002, y: -27.000002}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186d9aa5a0e447d89ab75bb15929cb2c
+      internalID: 21300240
+      vertices:
+      - {x: -0.000015258789, y: 54}
+      - {x: 455, y: 54}
+      - {x: -0.000015258789, y: -0.0000019073486}
+      - {x: 455, y: -0.0000019073486}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_shelf1
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1403
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ef1ef37729491fb41c628f504f5ed0
+      internalID: 21300242
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1019
+        width: 42
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: -21}
+        - {x: -21, y: 21}
+        - {x: 21, y: 21}
+        - {x: 21, y: -21}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae1bdbe510a4b9e941e89e2827ab8e8
+      internalID: 21300244
+      vertices:
+      - {x: 0, y: 42}
+      - {x: 42, y: 42}
+      - {x: 0, y: 0}
+      - {x: 42, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_tablelight
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1506
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242c1d947ea54cdead8f57cae99a9a61
+      internalID: 21300246
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rhomb
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1028
+        width: 42
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: -21}
+        - {x: -21, y: 21}
+        - {x: 21, y: 21}
+        - {x: 21, y: -21}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5f95990e6c4f9e936e9c542233a862
+      internalID: 21300248
+      vertices:
+      - {x: 0, y: 42}
+      - {x: 42, y: 42}
+      - {x: 0, y: 0}
+      - {x: 42, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_shelf4
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1506
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa210b71cb9544c8b9d4bc40f81885e4
+      internalID: 21300250
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_childbed
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 1063
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c8d8526e404ca9bbb7abdcb09a3fb3
+      internalID: 21300252
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: check_icon2
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1867
+        width: 72
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: -28}
+        - {x: -36, y: 28}
+        - {x: 36, y: 28}
+        - {x: 36, y: -28}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2cc299630c48499dc59483bdba261e
+      internalID: 21300254
+      vertices:
+      - {x: 0, y: 56}
+      - {x: 72, y: 56}
+      - {x: 0, y: 0}
+      - {x: 72, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_sink
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1405
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e45ab8feb2d45e8981b1b97c1aa2903
+      internalID: 21300256
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_timer_white
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 1061
+        width: 39
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: -19.5}
+        - {x: -19.5, y: 19.5}
+        - {x: 19.5, y: 19.5}
+        - {x: 19.5, y: -19.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21147ae6b9e04e30aa39fc0855f71e28
+      internalID: 21300260
+      vertices:
+      - {x: 0, y: 39}
+      - {x: 39, y: 39}
+      - {x: 0, y: 0}
+      - {x: 39, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: video_icon
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 230
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.000002, y: -30.000002}
+        - {x: -30.000002, y: 30.000002}
+        - {x: 30.000002, y: 30.000002}
+        - {x: 30.000002, y: -30.000002}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0857a3131b4d3fa1483435aaaa1f12
+      internalID: 21300262
+      vertices:
+      - {x: -0.0000019073486, y: 60}
+      - {x: 60, y: 60}
+      - {x: -0.0000019073486, y: -0.0000019073486}
+      - {x: 60, y: -0.0000019073486}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stage_furniture
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 1625
+        width: 54
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.000002, y: -22.5}
+        - {x: -27.000002, y: 22.5}
+        - {x: 27.000002, y: 22.5}
+        - {x: 27.000002, y: -22.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbd8676e595425e86ea7f2507a873d7
+      internalID: 21300264
+      vertices:
+      - {x: -0.0000019073486, y: 45}
+      - {x: 54, y: 45}
+      - {x: -0.0000019073486, y: 0}
+      - {x: 54, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_ads_btn
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1495
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 31, y: 31, z: 31, w: 31}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066d0d29c2ee4515af8e30095a6288df
+      internalID: 21300266
+      vertices:
+      - {x: 0, y: 64}
+      - {x: 64, y: 64}
+      - {x: 0, y: 0}
+      - {x: 64, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_progress_back
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 1137
+        width: 183
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.5, y: -33}
+        - {x: -91.5, y: 33}
+        - {x: 91.5, y: 33}
+        - {x: 91.5, y: -33}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c12bcef045a4d8faf87b29faf742de2
+      internalID: 21300268
+      vertices:
+      - {x: 0, y: 66}
+      - {x: 183, y: 66}
+      - {x: 0, y: 0}
+      - {x: 183, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copy
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 1566
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: -22.5}
+        - {x: -22.5, y: 22.5}
+        - {x: 22.5, y: 22.5}
+        - {x: 22.5, y: -22.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b377f789894045ac17dae892f70afe
+      internalID: 21300270
+      vertices:
+      - {x: 0, y: 45}
+      - {x: 45, y: 45}
+      - {x: 0, y: 0}
+      - {x: 45, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room_button_invalid
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 1566
+        width: 57
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: -28.5}
+        - {x: -28.5, y: 28.5}
+        - {x: 28.5, y: 28.5}
+        - {x: 28.5, y: -28.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b821e7f93ecd49e895e6801bb17e2259
+      internalID: 21300274
+      vertices:
+      - {x: 0, y: 57}
+      - {x: 57, y: 57}
+      - {x: 0, y: 0}
+      - {x: 57, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_door
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1403
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40ef88a4ced49c6aa45bac33382402f
+      internalID: 21300276
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pack_icon_other
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1425
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: -40}
+        - {x: -40, y: 40}
+        - {x: 40, y: 40}
+        - {x: 40, y: -40}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f932827dc244ff2964c762cdcf6856d
+      internalID: 21300278
+      vertices:
+      - {x: 0, y: 80}
+      - {x: 80, y: 80}
+      - {x: 0, y: 0}
+      - {x: 80, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_check
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 1278
+        width: 72
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: -28}
+        - {x: -36, y: 28}
+        - {x: 36, y: 28}
+        - {x: 36, y: -28}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da4acdb120d4fabb754ae48bee1a319
+      internalID: 21300282
+      vertices:
+      - {x: 0, y: 56}
+      - {x: 72, y: 56}
+      - {x: 0, y: 0}
+      - {x: 72, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_office_chair
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1531
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b83a4a4abf4455e81ea16ed22f30fdd
+      internalID: 21300284
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Pause
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1823
+        width: 58
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: -25}
+        - {x: -29, y: 25}
+        - {x: 29, y: 25}
+        - {x: 29, y: -25}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e599cc5cb544b588e9de9a3dfc1ec64
+      internalID: 21300286
+      vertices:
+      - {x: 0, y: 50}
+      - {x: 58, y: 50}
+      - {x: 0, y: 0}
+      - {x: 58, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title_overlay
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 716
+        width: 599
+        height: 146
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -299.5, y: -73}
+        - {x: -299.5, y: 73}
+        - {x: 299.5, y: 73}
+        - {x: 299.5, y: -73}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbe0ecbb81847a4aeab53da4dede49b
+      internalID: 21300288
+      vertices:
+      - {x: 0, y: 146}
+      - {x: 599, y: 146}
+      - {x: 0, y: 0}
+      - {x: 599, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trash
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1757
+        width: 69
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: -42.5}
+        - {x: -34.5, y: 42.5}
+        - {x: 34.5, y: 42.5}
+        - {x: 34.5, y: -42.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9b6e2013114728aa556d7fb40958a7
+      internalID: 21300290
+      vertices:
+      - {x: 0, y: 85}
+      - {x: 69, y: 85}
+      - {x: 0, y: 0}
+      - {x: 69, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_video_icon
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 138
+        width: 63
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: -31.5}
+        - {x: -31.5, y: 31.5}
+        - {x: 31.5, y: 31.5}
+        - {x: 31.5, y: -31.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd313f96e35049a3b5624839e51acddd
+      internalID: 21300292
+      vertices:
+      - {x: 0, y: 63}
+      - {x: 63, y: 63}
+      - {x: 0, y: 0}
+      - {x: 63, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_decore_wall
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1191
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5fff4c990b4a7882f8f854e41a73b9
+      internalID: 21300298
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mail_icon
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1854
+        width: 55
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: -21.5}
+        - {x: -27.5, y: 21.5}
+        - {x: 27.5, y: 21.5}
+        - {x: 27.5, y: -21.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20806bc260d348548a8c7b7589675964
+      internalID: 21300300
+      vertices:
+      - {x: 0, y: 43}
+      - {x: 55, y: 43}
+      - {x: 0, y: 0}
+      - {x: 55, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ticket_icon2
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1561
+        width: 66
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: -27.5}
+        - {x: -33, y: 27.5}
+        - {x: 33, y: 27.5}
+        - {x: 33, y: -27.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806bdd66e37544ecb6f775ce650d6efd
+      internalID: 21300302
+      vertices:
+      - {x: 0, y: 55}
+      - {x: 66, y: 55}
+      - {x: 0, y: 0}
+      - {x: 66, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_timer
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 1208
+        width: 68
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: -34}
+        - {x: -34, y: 34}
+        - {x: 34, y: 34}
+        - {x: 34, y: -34}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44c15806db64154b9983b92809e857f
+      internalID: 21300304
+      vertices:
+      - {x: 0, y: 68}
+      - {x: 68, y: 68}
+      - {x: 0, y: 0}
+      - {x: 68, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_shelf2
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 1009
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75a0e3e6e4a4bdda957ee1dd1ddc252
+      internalID: 21300306
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_button_purple_back
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 1729
+        width: 70
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 34, y: 0, z: 34, w: 0}
+      outline:
+      - - {x: -35, y: -45}
+        - {x: -35, y: 45}
+        - {x: 35, y: 45}
+        - {x: 35, y: -45}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c664d75857f544a0a6b3876f9f4f2329
+      internalID: 21300308
+      vertices:
+      - {x: 0, y: 90}
+      - {x: 70, y: 90}
+      - {x: 0, y: 0}
+      - {x: 70, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: infinity_icon
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1875
+        width: 66
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: -17}
+        - {x: -33, y: 17}
+        - {x: 33, y: 17}
+        - {x: 33, y: -17}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a7650ec28a4cf1a6edc5a714e7cb12
+      internalID: 21300312
+      vertices:
+      - {x: 0, y: 34}
+      - {x: 66, y: 34}
+      - {x: 0, y: 0}
+      - {x: 66, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_bar_stool
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1275
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1838a9a396864426808dc23750b41356
+      internalID: 21300314
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timer_icon
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 660
+        width: 50
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -25}
+        - {x: -25, y: 25}
+        - {x: 25, y: 25}
+        - {x: 25, y: -25}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75ed9e7bd864c09a8071a5535b230ce
+      internalID: 21300316
+      vertices:
+      - {x: 0, y: 50}
+      - {x: 50, y: 50}
+      - {x: 0, y: 0}
+      - {x: 50, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stage_customize
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 240
+        width: 57
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: -28.5}
+        - {x: -28.5, y: 28.5}
+        - {x: 28.5, y: 28.5}
+        - {x: 28.5, y: -28.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a1dbaa044847a887753e0d07ded0de
+      internalID: 21300318
+      vertices:
+      - {x: 0, y: 57}
+      - {x: 57, y: 57}
+      - {x: 0, y: 0}
+      - {x: 57, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room_button_blue
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 442
+        width: 186
+        height: 186
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: -93}
+        - {x: -93, y: 93}
+        - {x: 93, y: 93}
+        - {x: 93, y: -93}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2720f0d45a44e6918599d49fec6ab5
+      internalID: 21300320
+      vertices:
+      - {x: 0, y: 186}
+      - {x: 186, y: 186}
+      - {x: 0, y: 0}
+      - {x: 186, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room_kitchen
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 1447
+        width: 91
+        height: 91
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: -45.5}
+        - {x: -45.5, y: 45.5}
+        - {x: 45.5, y: 45.5}
+        - {x: 45.5, y: -45.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6c862f47354d838f3d80e30a265699
+      internalID: 21300322
+      vertices:
+      - {x: 0, y: 91}
+      - {x: 91, y: 91}
+      - {x: 0, y: 0}
+      - {x: 91, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cross
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1786
+        width: 66
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: -33}
+        - {x: -33, y: 33}
+        - {x: 33, y: 33}
+        - {x: 33, y: -33}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f423b3a51e0b4049bd1fe484601d40bd
+      internalID: 21300324
+      vertices:
+      - {x: 0, y: 66}
+      - {x: 66, y: 66}
+      - {x: 0, y: 0}
+      - {x: 66, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_decore_table
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1403
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94d8510e4184a06bce85dabf2c10826
+      internalID: 21300326
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invalid_indicator
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 712
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: -22.5}
+        - {x: -22.5, y: 22.5}
+        - {x: 22.5, y: 22.5}
+        - {x: 22.5, y: -22.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833e802a1f7e4f57993d8e9c4c0729e0
+      internalID: 21300328
+      vertices:
+      - {x: 0, y: 45}
+      - {x: 45, y: 45}
+      - {x: 0, y: 0}
+      - {x: 45, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_tvstand
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1768
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a10d778335043cc981a0646994852c0
+      internalID: 21300330
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pack_icon_rubbish
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 1357
+        width: 92
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46, y: -39.5}
+        - {x: -46, y: 39.5}
+        - {x: 46, y: 39.5}
+        - {x: 46, y: -39.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b97e55da1424aeab2bf9e08efd1101a
+      internalID: 21300334
+      vertices:
+      - {x: 0, y: 79}
+      - {x: 92, y: 79}
+      - {x: 0, y: 0}
+      - {x: 92, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_progress_icon
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1027
+        width: 93
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.5, y: -47}
+        - {x: -46.5, y: 47}
+        - {x: 46.5, y: 47}
+        - {x: 46.5, y: -47}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d741cf411d4f89960f0c7b06c0d2ed
+      internalID: 21300336
+      vertices:
+      - {x: 0, y: 94}
+      - {x: 93, y: 94}
+      - {x: 0, y: 0}
+      - {x: 93, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brush_icon
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 931
+        width: 94
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: -47}
+        - {x: -47, y: 47}
+        - {x: 47, y: 47}
+        - {x: 47, y: -47}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe50198b4d244e2908359e08b936127
+      internalID: 21300342
+      vertices:
+      - {x: 0, y: 94}
+      - {x: 94, y: 94}
+      - {x: 0, y: 0}
+      - {x: 94, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_washstand
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 1191
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de0fea54bdc4ab48a07b10507652888
+      internalID: 21300344
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_dresser
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1319
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c7d8a02f6348eba608f26d54e9076f
+      internalID: 21300346
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutorialShade
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1124
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: -64}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -64}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3e12afa6cb42b69eebd4b9ab14728f
+      internalID: 21300348
+      vertices:
+      - {x: 0, y: 128}
+      - {x: 128, y: 128}
+      - {x: 0, y: 0}
+      - {x: 128, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vip_box_close
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 584
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: -37}
+        - {x: -37, y: 37}
+        - {x: 37, y: 37}
+        - {x: 37, y: -37}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d77fce6f33434994c018375e663e48
+      internalID: 21300350
+      vertices:
+      - {x: 0, y: 74}
+      - {x: 74, y: 74}
+      - {x: 0, y: 0}
+      - {x: 74, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutorialHandPress
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 630
+        width: 152
+        height: 182
+      alignment: 9
+      pivot: {x: 0.47000003, y: 0.94}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -76, y: -91}
+        - {x: -76, y: 91}
+        - {x: 76, y: 91}
+        - {x: 76, y: -91}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e03baa9551450097c28f2246ee081b
+      internalID: 21300356
+      vertices:
+      - {x: 4.5599976, y: 101.92}
+      - {x: 156.56, y: 101.92}
+      - {x: 4.5599976, y: -80.08}
+      - {x: 156.56, y: -80.08}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_carpet
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1531
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41445f6b95414496939a78e3c3954f80
+      internalID: 21300360
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vip_box_header
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 556
+        width: 181
+        height: 275
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -90.5, y: -137.5}
+        - {x: -90.5, y: 137.5}
+        - {x: 90.5, y: 137.5}
+        - {x: 90.5, y: -137.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c4190034fd4fa79b14071403f26fdd
+      internalID: 21300362
+      vertices:
+      - {x: 0, y: 275}
+      - {x: 181, y: 275}
+      - {x: 0, y: 0}
+      - {x: 181, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: build_poof
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 1009
+        width: 126
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -63}
+        - {x: -63, y: 63}
+        - {x: 63, y: 63}
+        - {x: 63, y: -63}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f1432e620740ee9fd2cd565102a7e7
+      internalID: 21300364
+      vertices:
+      - {x: 0, y: 126}
+      - {x: 126, y: 126}
+      - {x: 0, y: 0}
+      - {x: 126, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room_livingroom
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1659
+        width: 100
+        height: 82
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: -41}
+        - {x: -50, y: 41}
+        - {x: 50, y: 41}
+        - {x: 50, y: -41}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5a43ba59914d5f8d32c1510957e56c
+      internalID: 21300366
+      vertices:
+      - {x: 0, y: 82}
+      - {x: 100, y: 82}
+      - {x: 0, y: 0}
+      - {x: 100, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e5f38ede1a0aeab4999ff44bd8277f50
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Circle_200: 21300114
+      Circle_74: 21300144
+      Cross: 21300324
+      Flare: 21300184
+      Icon_HomeMap: 21300122
+      Icon_Money: 21300056
+      Icon_Next: 21300136
+      Icon_NoAds: 21300082
+      Icon_NoAds_new: 21300070
+      Icon_NoAds_pack: 21300332
+      Icon_Pause: 21300286
+      Icon_PlayAds: 21300164
+      Icon_Repeat: 21300234
+      Icon_Settings: 21300180
+      Icon_WatchAd: 21300172
+      Icon_X: 21300198
+      Icon_timer: 21300304
+      Icon_timer_white: 21300260
+      NoAds_sale_back: 21300096
+      Rhomb: 21300248
+      Star: 21300098
+      TutorialHand: 21300058
+      TutorialHandPress: 21300356
+      TutorialShade: 21300348
+      White: 21300244
+      ad_icon: 21300354
+      ads_icon: 21300166
+      big_star: 21300310
+      big_star_no: 21300352
+      book_icon: 21300146
+      brush_icon: 21300342
+      build_bar_stool: 21300314
+      build_bathtub: 21300044
+      build_carpet: 21300360
+      build_chair: 21300130
+      build_childbed: 21300252
+      build_cofeetable: 21300002
+      build_comode: 21300226
+      build_cupboard: 21300168
+      build_curtains: 21300190
+      build_decore_floor: 21300152
+      build_decore_table: 21300326
+      build_decore_wall: 21300298
+      build_door: 21300276
+      build_doublebed: 21300238
+      build_dresser: 21300346
+      build_endtable: 21300224
+      build_fireplace: 21300126
+      build_floor: 21300104
+      build_floorlight: 21300076
+      build_fridge: 21300008
+      build_mirror: 21300102
+      build_nightstand: 21300026
+      build_office_chair: 21300284
+      build_office_table: 21300004
+      build_poof: 21300364
+      build_rack1: 21300182
+      build_rack2: 21300222
+      build_rack4: 21300176
+      build_shelf1: 21300242
+      build_shelf2: 21300306
+      build_shelf4: 21300250
+      build_singlebed: 21300054
+      build_sink: 21300256
+      build_sofa: 21300132
+      build_sofaleft: 21300140
+      build_sofaright: 21300046
+      build_stool: 21300214
+      build_stove: 21300200
+      build_table: 21300036
+      build_tablelight: 21300246
+      build_toilet: 21300170
+      build_tvstand: 21300330
+      build_wall: 21300106
+      build_washing_machine: 21300162
+      build_washstand: 21300344
+      build_window: 21300062
+      button_video_icon: 21300292
+      ch_flag: 21300016
+      check_icon: 21300032
+      check_icon2: 21300254
+      close_button: 21300006
+      copy: 21300270
+      dating_heart_empty: 21300202
+      dating_heart_full: 21300018
+      de_flag: 21300158
+      emoji_good1.png: 21300022
+      emoji_good2.png: 21300178
+      emoji_good3.png: 21300078
+      emoji_good4.png: 21300052
+      emoji_sad1.png: 21300138
+      emoji_sad2.png: 21300160
+      emoji_sad3.png: 21300020
+      emoji_sad4.png: 21300272
+      en_flag: 21300034
+      energy_ads_btn: 21300266
+      energy_big_multiply_icon: 21300148
+      energy_big_one_icon: 21300294
+      energy_currency_btn: 21300000
+      energy_icon: 21300134
+      energy_progress_back: 21300268
+      energy_progress_fill: 21300028
+      energy_small_icon: 21300040
+      es_flag: 21300066
+      fr_flag: 21300142
+      game_center_color: 21300156
+      games_controller: 21300280
+      gem_icon: 21300154
+      gem_reward: 21300216
+      gems_icon: 21300042
+      golden_frame: 21300112
+      green_check: 21300282
+      heart: 21300358
+      hint_icon: 21300088
+      home_icon: 21300060
+      icon_vip_button: 21300204
+      infinity_icon: 21300312
+      invalid_hint: 21300186
+      invalid_indicator: 21300328
+      it_flag: 21300228
+      ja_flag: 21300092
+      ko_flag: 21300258
+      language_switch_arrow: 21300086
+      language_switch_fade: 21300192
+      level_progress: 21300240
+      level_progress_icon: 21300336
+      mail_icon: 21300300
+      move icon: 21300010
+      pack_icon_glass: 21300120
+      pack_icon_other: 21300278
+      pack_icon_paper: 21300030
+      pack_icon_rubbish: 21300334
+      pack_icon_tech: 21300072
+      pack_icon_textile: 21300230
+      pack_icon_tools: 21300038
+      pack_icon_toys: 21300100
+      pin_circle: 21300128
+      pin_trash: 21300174
+      plus_counter_icon: 21300110
+      pt_flag: 21300012
+      restore_purchases_icon: 21300208
+      room_bathroom: 21300124
+      room_bedroom: 21300094
+      room_button_blue: 21300320
+      room_button_dark: 21300212
+      room_button_invalid: 21300274
+      room_closet: 21300118
+      room_kitchen: 21300322
+      room_livingroom: 21300366
+      room_photo: 21300150
+      ru_flag: 21300340
+      save_icon_home: 21300206
+      save_icon_home_outline: 21300080
+      selection_box: 21300218
+      selection_box2: 21300188
+      separator: 21300210
+      skotch_icon: 21300232
+      small_button_purple_back: 21300308
+      stage_customize: 21300318
+      stage_furniture: 21300264
+      stage_pack: 21300194
+      star_icon: 21300090
+      star_small.png: 21300074
+      star_small_no.png: 21300084
+      target_furniture_icon: 21300014
+      target_garbage_icon: 21300116
+      target_setup_icon: 21300236
+      ticket_icon: 21300220
+      ticket_icon2: 21300302
+      ticket_icon_old: 21300048
+      timer_icon: 21300316
+      title_overlay: 21300288
+      trash: 21300290
+      tu_flag: 21300296
+      video_icon: 21300262
+      vip_box_ads: 21300064
+      vip_box_close: 21300350
+      vip_box_header: 21300362
+      vip_box_popup: 21300068
+      vip_indicator_icon: 21300338
+      vip_popup_back: 21300108
+      vip_popup_icon: 21300024
+      vip_popup_outline: 21300050
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
